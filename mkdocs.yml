@@ -41,7 +41,8 @@ markdown_extensions:
   - pymdownx.details
 nav:
   - Inicio: index.md
-  - "U1: Primer programa en Java":
+  - Mapa de unidades: unidades.md
+  - "U1 · Primer programa":
       - u01/index.md
       - "1.1 Un programa": u01/01-programa.md
       - "1.2 Práctica con el lenguaje": u01/02-lenguaje.md
@@ -50,33 +51,52 @@ nav:
       - "1.5 Compilar y ejecutar: JDK y JVM": u01/05-jdk.md
       - "1.6 Bucles: for y forEach": u01/06-bucles.md
       - "Prácticas": u01/practicas.md
-  - Ejercicios de Programación:
-      - ejercicios/index.md
-      - "P1.2 Primeros programas": ejercicios/p1-2.md
-      - "P2.1 Condicionales": ejercicios/p2-1.md
-      - "P2.2 Bucles": ejercicios/p2-2.md
-      - "P2.3 Excepciones": ejercicios/p2-3.md
-      - "P2.4 Depurar": ejercicios/p2-4.md
+  - "U2 · Estructuras de control":
+      - u02/index.md
+      - "P2.1 · Sentencias condicionales": u02/condicionales.md
+      - "P2.2 · Sentencias iterativas y saltos": u02/bucles.md
+      - "P2.3 · Captura de excepciones": u02/excepciones.md
+      - "P2.4 · Depurar programas": u02/depurar.md
+  - "U3 · Estructuras de datos":
+      - u03/index.md
+      - "U3.0 · Cadenas": u03/cadenas.md
+      - "U3.1 · Listas y tuplas": u03/listas.md
+      - "U3.2 · Mapas (diccionarios)": u03/mapas.md
+      - "U3.3 · Conjuntos": u03/conjuntos.md
+      - "U3.4 · JSON": u03/json.md
+      - "U3.5 · XML": u03/xml.md
+  - "U4 · Programación orientada a objetos":
+      - u04/index.md
+      - "U4.1 · Repaso de las unidades 1 a 3": u04/repaso.md
+      - "U4.2 · POO I (ejercicios 1 al 5)": u04/poo-1.md
+      - "U4.3 · POO II (ejercicios 6 al 10)": u04/poo-2.md
+      - "U4.4 · Robots (parte 1)": u04/robots-1.md
+      - "U4.5 · Robots (parte 2 y reto)": u04/robots-2.md
+      - "U4.6 · Prueba: Cafetera y Taza": u04/prueba.md
+      - "U4.7 · Reto personal: gestor de inventario": u04/proyecto.md
+      - "U4.8 · Cambio de rol: explícamelo tú (grupos)": u04/cambio-de-rol.md
+  - "U5 · Herencia, clases abstractas e interfaces":
+      - u05/index.md
+      - "U5.1 · Clases abstractas, interfaces y herencia": u05/herencia.md
+  - "U6 · Diseño de programas con POO":
+      - u06/index.md
+      - "U6.1 · Jerarquía de clases": u06/jerarquia.md
+      - "U6.2 · Principios SOLID": u06/solid.md
+      - "U6.3 · Comentarios y documentación": u06/documentacion.md
+  - "U7 · Entrada/salida y GUI":
+      - u07/index.md
+      - "U7.1 · Consola: entrada y salida estándar": u07/consola.md
+      - "U7.2 · Archivos y carpetas": u07/archivos.md
+      - "U7.3 · Ficheros de texto": u07/texto.md
+      - "U7.4 · Interfaces gráficas": u07/gui.md
+  - "U9 · Bases de datos relacionales":
+      - u09/index.md
+      - "U9.1 · Conexión y creación de tablas": u09/conexion.md
+      - "U9.2 · Consultas, borrados y modificaciones": u09/consultas.md
+      - "U9.3 · Pool, seguridad, transacciones y DAO": u09/buenas-practicas.md
   - Aplicaciones Híbridas · Tema 1:
       - tema1-ah/index.md
       - "Sesión 1 · Primeros pasos": tema1-ah/sesion1.md
       - "Sesión 2 · Flujo, funciones y clases": tema1-ah/sesion2.md
       - "Sesión 3 · Asincronía": tema1-ah/sesion3.md
       - "Boletín": tema1-ah/boletin.md
-  - Ejercicios U3 a U5:
-      - ejercicios-u3-u5/index.md
-      - "U3.0 · Cadenas": ejercicios-u3-u5/u3-0.md
-      - "U3.1 · Listas y tuplas": ejercicios-u3-u5/u3-1.md
-      - "U3.2 · Mapas (diccionarios)": ejercicios-u3-u5/u3-2.md
-      - "U3.3 · Conjuntos": ejercicios-u3-u5/u3-3.md
-      - "U3.4 · JSON": ejercicios-u3-u5/u3-4.md
-      - "U3.5 · XML": ejercicios-u3-u5/u3-5.md
-      - "U4.1 · Repaso de las unidades 1 a 3": ejercicios-u3-u5/u4-1.md
-      - "U4.2 · POO I (ejercicios 1 al 5)": ejercicios-u3-u5/u4-2.md
-      - "U4.3 · POO II (ejercicios 6 al 10)": ejercicios-u3-u5/u4-3.md
-      - "U4.4 · Robots (parte 1)": ejercicios-u3-u5/u4-4.md
-      - "U4.5 · Robots (parte 2 y reto)": ejercicios-u3-u5/u4-5.md
-      - "U4.6 · Prueba: Cafetera y Taza": ejercicios-u3-u5/u4-6.md
-      - "U4.7 · Reto personal: gestor de inventario": ejercicios-u3-u5/u4-7.md
-      - "U4.8 · Cambio de rol: explícamelo tú (grupos)": ejercicios-u3-u5/u4-8.md
-      - "U5.1 · Clases abstractas, interfaces y herencia": ejercicios-u3-u5/u5-1.md

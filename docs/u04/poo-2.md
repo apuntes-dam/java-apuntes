@@ -1,0 +1,37 @@
+# U4.3 · POO II (ejercicios 6 al 10)
+
+<div class="ej-gate" data-unit="u04" data-nombre="U4 · Programación orientada a objetos"></div>
+
+Colecciones de objetos, relaciones entre clases y programas completos.
+
+## Ejercicio 4.6
+
+Resuelve el ejercicio de conjuntos 3.3.1 **orientado a objetos**. Una posible estructura:
+
+* `Domicilio(calle, numero)` con un método `dirCompleta()`.
+* `Cliente(nombre, domicilio)`.
+* `Compra(cliente, dia, monto)`.
+* Las tres, como clases de datos si tu lenguaje lo permite (`data class` en Kotlin, `record` en Java, igualdad por valor en Dart y Python).
+* `RepositorioCompras` con un método para agregar compras y otro `domicilios()` que devuelva los domicilios a facturar, **cada uno una sola vez**.
+
+## Ejercicio 4.7
+
+**Cuentas bancarias.** Crea `Cuenta` con número de cuenta y saldo; se puede consultar el saldo, recibir abonos y hacer pagos. Crea `Persona` con DNI y hasta **3 cuentas** (guárdalas en un array de tamaño fijo, no en una lista) y un método para añadir cuentas.
+
+Funciones de utilidad (estáticas): `esMorosa(persona)` (alguna cuenta con saldo negativo) y `transferencia(personaA, personaB, cuentaA, cuentaB, cantidad)` que devuelve si se pudo hacer.
+
+En `main`: una persona con una cuenta sin saldo y otra con 700 €. Ingresa 1100 € en la primera y paga 750 € de alquiler con la segunda. Muestra si es morosa. Haz una transferencia entre ellas para que todos los saldos queden positivos y muestra el estado final.
+
+## Ejercicio 4.8
+
+**Libros leídos.** Crea `Libro` con título, autor, páginas y calificación (0 a 10) y `ConjuntoLibros`, que guarda libros en un array de tamaño fijo. Debe permitir añadir libros que no existan (si hay hueco), eliminar por título o por autor, mostrar los libros con mayor y menor calificación y mostrar todo el contenido.
+
+En `main`: crea dos libros, añádelos, elimínalos por los dos criterios hasta vaciar el conjunto, añade uno más y muestra el contenido.
+
+## Ejercicio 4.9
+
+**Lista de tareas.** Menú para agregar (por defecto *pendiente*), eliminar y cambiar el estado de una tarea, y para mostrar todas, solo las pendientes o solo las realizadas. Una tarea tiene identificador (indicado o generado), descripción y estado; si está realizada, muestra la fecha y hora en que se marcó, con formato `DD-MM-AAAA HH:MM:SS`.
+
+## Ejercicio 4.10
+
+Programa el juego del **3 en raya** con programación orientada a objetos (por ejemplo, clases `Tablero`, `Jugador` y `Partida`).

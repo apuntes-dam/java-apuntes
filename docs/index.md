@@ -8,10 +8,9 @@ Apuntes personales para aprender **Java**, organizados con la misma estructura q
 | Apartado | Contenido |
 |---|---|
 | [U1. Primer programa en Java](u01/index.md) | Estructura, variables, operadores, tipos, pruebas |
+| [Mapa de unidades](unidades.md) | U1 a U9: teoría y ejercicios, con los ejercicios de cada unidad debajo de su teoría |
 | [Compilar y ejecutar](u01/05-jdk.md) | JDK, JRE, JVM, `javac` y `java` |
 | [Prácticas](u01/practicas.md) | Guía de prácticas de la unidad |
-| [Ejercicios de Programación](ejercicios/index.md) | 73 ejercicios adaptados con soluciones modelo |
-| [Ejercicios U3 a U5](ejercicios-u3-u5/index.md) | Cadenas, colecciones, JSON/XML y POO |
 | [Aplicaciones Híbridas · Tema 1](tema1-ah/index.md) | 23 ejercicios de otro módulo, adaptados |
 
 !!! note "Qué es Java"

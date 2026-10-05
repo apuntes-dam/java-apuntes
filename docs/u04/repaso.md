@@ -1,0 +1,21 @@
+# U4.1 · Repaso de las unidades 1 a 3
+
+<div class="ej-gate" data-unit="u04" data-nombre="U4 · Programación orientada a objetos"></div>
+
+Antes de pasar a objetos, repasa con los **últimos ejercicios** de cada relación. Propuesta de selección (los números se refieren a los ejercicios de las páginas anteriores):
+
+## Ejercicio 4.0
+
+Resuelve estos ejercicios en tu lenguaje:
+
+| Bloque | Ejercicios |
+|---|---|
+| Básicos (P1.2) | 4, 6, 12, 15, 18, 20, 21, 22, 24, 25, 26 y 27 |
+| Condicionales (P2.1) | 2, 3, 6, 8 y 10 |
+| Iterativas (P2.2) | 2, 4, 6, 7, 8, 13, 15, 18, 19 y 25 |
+| Excepciones (P2.3) | 2, 3 y 4 |
+| Listas (U3.1) | 4, 6, 8, 9, 10 y 13 |
+| Mapas (U3.2) | 3, 5, 6, 7, 8, 10 y 11 |
+| Conjuntos (U3.3) | 1, 2, 3, 4, 5 y 6 |
+
+Súbelos a un repositorio Git con un archivo por ejercicio y commits pequeños.

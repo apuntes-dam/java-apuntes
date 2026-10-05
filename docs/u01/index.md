@@ -34,3 +34,9 @@ Reconocer la estructura de un programa Java e identificar y relacionar los eleme
 ## 5. Prácticas
 
 Ver [Prácticas](practicas.md). Se recomienda hacerlas en orden.
+
+## 6. Ejercicios
+
+Cuando hayas leído y practicado la teoría de la unidad, desbloquea los [ejercicios de la unidad](ejercicios.md) (32 ejercicios).
+
+<div class="ej-check" data-unit="u01"></div>

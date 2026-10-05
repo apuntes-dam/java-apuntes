@@ -1,0 +1,26 @@
+# P2.4 · Depurar programas
+
+<div class="ej-gate" data-unit="u02" data-nombre="U2 · Estructuras de control"></div>
+
+El **algoritmo de la burbuja** ordena una lista comparando cada elemento con el siguiente e intercambiándolos si están desordenados. Se hace con dos bucles anidados: el *padre* repite `n - 1` pasadas y el *hijo* compara pares adyacentes, recorriendo cada vez un elemento menos (el mayor ya queda al final).
+
+## Ejercicio 2.4.1
+
+Implementa la burbuja para ordenar `[8, 3, 1, 19, 14]` y **depúralo**:
+
+1. Pon un punto de ruptura dentro del bucle hijo.
+2. Avanza paso a paso y observa cómo cambian `i`, `j` y la lista.
+3. Haz capturas del punto de ruptura y de las variables.
+4. Copia la salida final por consola.
+
+Variante opcional: detén el bucle cuando una pasada no haga ningún intercambio (usa una variable de control).
+
+<details class="sol" data-key="p2-4/2.4.1">
+<summary>Solución modelo (bloqueada)</summary>
+<div class="sol-body"><p class="sol-aviso">🔒 La solución completa está bloqueada. Esto es solo un ejemplo de cómo empieza:</p><pre><code>import java.util.Arrays;
+public class Solucion {
+    public static void main(String[] args) {
+        int[] a = {8, 3, 1, 19, 14};
+        int n = a.length;
+// ... (resto de la solución bloqueado)</code></pre></div>
+</details>
