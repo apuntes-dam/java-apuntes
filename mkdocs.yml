@@ -1,7 +1,7 @@
 site_name: Java · Apuntes
 site_description: Apuntes de Java siguiendo la estructura de la UD 1 (primer programa).
-site_url: https://dopemmanuel.github.io/java-apuntes/
-repo_url: https://github.com/dopemmanuel/java-apuntes
+site_url: https://apuntes-dam.github.io/java-apuntes/
+repo_url: https://github.com/apuntes-dam/java-apuntes
 repo_name: GitHub
 theme:
   name: material
