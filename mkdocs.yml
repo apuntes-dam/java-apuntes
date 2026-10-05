@@ -63,3 +63,20 @@ nav:
       - "Sesión 2 · Flujo, funciones y clases": tema1-ah/sesion2.md
       - "Sesión 3 · Asincronía": tema1-ah/sesion3.md
       - "Boletín": tema1-ah/boletin.md
+  - Ejercicios U3 a U5:
+      - ejercicios-u3-u5/index.md
+      - "U3.0 · Cadenas": ejercicios-u3-u5/u3-0.md
+      - "U3.1 · Listas y tuplas": ejercicios-u3-u5/u3-1.md
+      - "U3.2 · Mapas (diccionarios)": ejercicios-u3-u5/u3-2.md
+      - "U3.3 · Conjuntos": ejercicios-u3-u5/u3-3.md
+      - "U3.4 · JSON": ejercicios-u3-u5/u3-4.md
+      - "U3.5 · XML": ejercicios-u3-u5/u3-5.md
+      - "U4.1 · Repaso de las unidades 1 a 3": ejercicios-u3-u5/u4-1.md
+      - "U4.2 · POO I (ejercicios 1 al 5)": ejercicios-u3-u5/u4-2.md
+      - "U4.3 · POO II (ejercicios 6 al 10)": ejercicios-u3-u5/u4-3.md
+      - "U4.4 · Robots (parte 1)": ejercicios-u3-u5/u4-4.md
+      - "U4.5 · Robots (parte 2 y reto)": ejercicios-u3-u5/u4-5.md
+      - "U4.6 · Prueba: Cafetera y Taza": ejercicios-u3-u5/u4-6.md
+      - "U4.7 · Juego del ahorcado (grupos)": ejercicios-u3-u5/u4-7.md
+      - "U4.8 · Cambio de rol: explícamelo tú (grupos)": ejercicios-u3-u5/u4-8.md
+      - "U5.1 · Clases abstractas, interfaces y herencia": ejercicios-u3-u5/u5-1.md

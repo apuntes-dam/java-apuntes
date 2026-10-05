@@ -11,6 +11,7 @@ Apuntes personales para aprender **Java**, organizados con la misma estructura q
 | [Compilar y ejecutar](u01/05-jdk.md) | JDK, JRE, JVM, `javac` y `java` |
 | [Prácticas](u01/practicas.md) | Guía de prácticas de la unidad |
 | [Ejercicios de Programación](ejercicios/index.md) | 73 ejercicios adaptados con soluciones modelo |
+| [Ejercicios U3 a U5](ejercicios-u3-u5/index.md) | Cadenas, colecciones, JSON/XML y POO |
 | [Aplicaciones Híbridas · Tema 1](tema1-ah/index.md) | 23 ejercicios de otro módulo, adaptados |
 
 !!! note "Qué es Java"
