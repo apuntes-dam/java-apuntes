@@ -1,0 +1,65 @@
+site_name: Java · Apuntes
+site_description: Apuntes de Java siguiendo la estructura de la UD 1 (primer programa).
+site_url: https://dopemmanuel.github.io/java-apuntes/
+repo_url: https://github.com/dopemmanuel/java-apuntes
+repo_name: GitHub
+theme:
+  name: material
+  language: es
+  logo: assets/logo.svg
+  favicon: assets/logo.svg
+  palette:
+    - scheme: slate
+      primary: custom
+      toggle:
+        icon: material/weather-night
+        name: Cambiar a modo claro
+    - scheme: default
+      primary: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Cambiar a modo oscuro
+  features:
+    - navigation.sections
+    - navigation.top
+    - toc.integrate
+    - content.code.copy
+    - search.highlight
+extra_css:
+  - assets/extra.css
+  - assets/lenguajes.css
+extra_javascript:
+  - assets/lenguajes.js
+markdown_extensions:
+  - admonition
+  - tables
+  - attr_list
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.details
+nav:
+  - Inicio: index.md
+  - "U1: Primer programa en Java":
+      - u01/index.md
+      - "1.1 Un programa": u01/01-programa.md
+      - "1.2 Práctica con el lenguaje": u01/02-lenguaje.md
+      - "1.3 Tipos de datos": u01/03-tipos.md
+      - "1.4 Pruebas con JUnit": u01/04-pruebas.md
+      - "1.5 Compilar y ejecutar: JDK y JVM": u01/05-jdk.md
+      - "1.6 Bucles: for y forEach": u01/06-bucles.md
+      - "Prácticas": u01/practicas.md
+  - Ejercicios de Programación:
+      - ejercicios/index.md
+      - "P1.2 Primeros programas": ejercicios/p1-2.md
+      - "P2.1 Condicionales": ejercicios/p2-1.md
+      - "P2.2 Bucles": ejercicios/p2-2.md
+      - "P2.3 Excepciones": ejercicios/p2-3.md
+      - "P2.4 Depurar": ejercicios/p2-4.md
+  - Aplicaciones Híbridas · Tema 1:
+      - tema1-ah/index.md
+      - "Sesión 1 · Primeros pasos": tema1-ah/sesion1.md
+      - "Sesión 2 · Flujo, funciones y clases": tema1-ah/sesion2.md
+      - "Sesión 3 · Asincronía": tema1-ah/sesion3.md
+      - "Boletín": tema1-ah/boletin.md
