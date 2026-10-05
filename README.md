@@ -4,7 +4,7 @@
 
 Apuntes y ejercicios de **Java** con la estructura de las unidades 1 a 9 de Programación: teoría, **175 ejercicios** adaptados y soluciones modelo bloqueadas.
 
-Forma parte de [Practica los lenguajes de programación para DAM 1 y 2](https://apuntes-dam.github.io/apuntes-lenguajes/), donde puedes elegir otro lenguaje o ver las equivalencias entre ellos.
+Forma parte de [Practica los Lenguajes de Programación para 1º DAM y 2º DAM](https://apuntes-dam.github.io/apuntes-lenguajes/), donde puedes elegir otro lenguaje o ver las equivalencias entre ellos.
 
 ## Cómo está hecho
 
