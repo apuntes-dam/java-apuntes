@@ -16,7 +16,7 @@ Continuación de los [ejercicios de Programación](../ejercicios/index.md): **65
 | [U4.4 · Robots (parte 1)](u4-4.md) | 2 |
 | [U4.5 · Robots (parte 2 y reto)](u4-5.md) | 1 |
 | [U4.6 · Prueba: Cafetera y Taza](u4-6.md) | 2 |
-| [U4.7 · Juego del ahorcado (grupos)](u4-7.md) | 1 |
+| [U4.7 · Reto personal: gestor de inventario](u4-7.md) | 1 |
 | [U4.8 · Cambio de rol: explícamelo tú (grupos)](u4-8.md) | 2 |
 | [U5.1 · Clases abstractas, interfaces y herencia](u5-1.md) | 10 |
 
