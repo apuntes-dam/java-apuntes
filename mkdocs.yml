@@ -22,7 +22,6 @@ theme:
   features:
     - navigation.sections
     - navigation.top
-    - toc.integrate
     - content.code.copy
     - search.highlight
 extra_css:
