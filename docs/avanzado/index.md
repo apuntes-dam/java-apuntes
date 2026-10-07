@@ -8,6 +8,7 @@ Material para ir más allá de las unidades 1 a 9. Cada unidad tiene su teoría,
 | Unidad | Qué practicas | Ejercicios | Estado |
 |---|---|---|---|
 | [A1 · Programación funcional](a1/index.md) | Funciones como valores, colecciones sin bucles, secuencias perezosas e inmutabilidad | 6 | <span class="u-estado" data-unit="a1"></span> |
+| [A2 · Genéricos](a2/index.md) | Tipos parametrizados, restricciones, variación y colecciones propias | 6 | <span class="u-estado" data-unit="a2"></span> |
 
 !!! note "Antes de empezar"
     Da por sabidas las unidades 1 a 5 del [mapa de unidades](../unidades.md). Para ver cada idea comparada en los otros lenguajes: [Pasar de uno a otro](https://apuntes-dam.github.io/apuntes-lenguajes/pasar/).

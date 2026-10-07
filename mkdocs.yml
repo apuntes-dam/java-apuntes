@@ -135,6 +135,12 @@ nav:
       - "A1.B Colecciones sin bucles": avanzado/a1/t-colecciones.md
       - "A1.C Componer, esperar e inmutabilidad": avanzado/a1/t-composicion.md
       - "A1 · Ejercicios de programación funcional": avanzado/a1/ejercicios.md
+  - "A2 · Genéricos":
+      - avanzado/a2/index.md
+      - "A2.A Tipos parametrizados": avanzado/a2/t-tipos.md
+      - "A2.B Restricciones y variación": avanzado/a2/t-restricciones.md
+      - "A2.C Tu colección y qué pasa al ejecutar": avanzado/a2/t-coleccion.md
+      - "A2 · Ejercicios de genéricos": avanzado/a2/ejercicios.md
   - Aplicaciones Híbridas · Tema 1:
       - tema1-ah/index.md
       - "Sesión 1 · Primeros pasos": tema1-ah/sesion1.md
