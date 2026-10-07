@@ -2,6 +2,13 @@
 
 Diseñar bien: jerarquías de clases con sentido, los cinco principios **SOLID** y cómo comentar y documentar el código.
 
+## Teoría
+
+* [6.A Diseñar una jerarquía](t-jerarquia.md): qué va en la base, qué en cada hija y cómo se reparten los constructores.
+* [6.B SOLID: S y O](t-solid-1.md): responsabilidad única y abierto/cerrado.
+* [6.C SOLID: L, I y D](t-solid-2.md): sustitución de Liskov, interfaces pequeñas e inversión de dependencias.
+* [6.D Comentarios y documentación](t-documentar.md): el porqué, documentar clases y generar la documentación.
+
 ## Antes de empezar: qué debes dominar
 
 * Jerarquías de clases, constructores y modificadores de herencia.

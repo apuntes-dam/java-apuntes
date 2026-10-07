@@ -103,6 +103,10 @@ nav:
       - "U5.1 · Clases abstractas, interfaces y herencia": u05/herencia.md
   - "U6 · Diseño de programas con POO":
       - u06/index.md
+      - "6.A Diseñar una jerarquía": u06/t-jerarquia.md
+      - "6.B SOLID: S y O": u06/t-solid-1.md
+      - "6.C SOLID: L, I y D": u06/t-solid-2.md
+      - "6.D Comentarios y documentación": u06/t-documentar.md
       - "U6.1 · Jerarquía de clases": u06/jerarquia.md
       - "U6.2 · Principios SOLID": u06/solid.md
       - "U6.3 · Comentarios y documentación": u06/documentacion.md
