@@ -1,5 +1,8 @@
 # 9.A Conectar y crear tablas
 
+!!! tip "¿Quieres aprender SQL a fondo?"
+    Esta unidad explica **lo mínimo de SQL** para entender los ejemplos. Para estudiarlo con calma (consultas, `JOIN`, agrupaciones, diseño de tablas, transacciones...) y con ejercicios, tienes la web de [SQL y bases de datos](https://apuntes-dam.github.io/sql-apuntes/).
+
 ## Qué es una base de datos relacional
 
 Una **base de datos relacional** guarda la información en **tablas**: cada tabla tiene **columnas** (los datos que se guardan) y **filas** (cada elemento guardado). Las tablas se **relacionan** entre sí mediante claves, y todo se maneja con un lenguaje común, **SQL**.
