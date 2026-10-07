@@ -4,7 +4,10 @@ Las estructuras que controlan el flujo del programa: decidir (`if`, selección m
 
 ## Teoría
 
-* Los bucles de esta unidad se explican en el apartado **1.6 Bucles** de la [unidad 1](../u01/06-bucles.md).
+* [2.1 Condicionales](01-condicionales.md): `if`, selección múltiple y operadores lógicos.
+* **2.2 Bucles**: se explican en el apartado [1.6 de la unidad 1](../u01/06-bucles.md).
+* [2.3 Excepciones](02-excepciones.md): `try`, lanzar y crear excepciones.
+* [2.4 Depurar](03-depurar.md): puntos de ruptura y ejecución paso a paso.
 
 ## Antes de empezar: qué debes dominar
 

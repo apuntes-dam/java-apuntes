@@ -58,6 +58,9 @@ nav:
       - "Prácticas": u01/practicas.md
   - "U2 · Estructuras de control":
       - u02/index.md
+      - "2.1 Condicionales": u02/01-condicionales.md
+      - "2.3 Excepciones": u02/02-excepciones.md
+      - "2.4 Depurar": u02/03-depurar.md
       - "P2.1 · Sentencias condicionales": u02/condicionales.md
       - "P2.2 · Sentencias iterativas y saltos": u02/bucles.md
       - "P2.3 · Captura de excepciones": u02/excepciones.md
