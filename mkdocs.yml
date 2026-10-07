@@ -147,6 +147,12 @@ nav:
       - "A3.B Resultados, errores y esperas": avanzado/a3/t-resultados.md
       - "A3.C Compartir datos con seguridad": avanzado/a3/t-compartir.md
       - "A3 · Ejercicios de concurrencia y asincronía": avanzado/a3/ejercicios.md
+  - "A4 · Pruebas automáticas":
+      - avanzado/a4/index.md
+      - "A4.A Qué es una prueba y cómo se escribe": avanzado/a4/t-pruebas.md
+      - "A4.B Errores y casos límite": avanzado/a4/t-casos.md
+      - "A4.C Aislar lo que no controlas": avanzado/a4/t-aislar.md
+      - "A4 · Ejercicios de pruebas automáticas": avanzado/a4/ejercicios.md
   - Aplicaciones Híbridas · Tema 1:
       - tema1-ah/index.md
       - "Sesión 1 · Primeros pasos": tema1-ah/sesion1.md
