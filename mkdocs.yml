@@ -112,6 +112,10 @@ nav:
       - "U6.3 · Comentarios y documentación": u06/documentacion.md
   - "U7 · Entrada/salida y GUI":
       - u07/index.md
+      - "7.A Consola: entrada y salida": u07/t-consola.md
+      - "7.B Archivos y carpetas": u07/t-archivos.md
+      - "7.C Ficheros de texto": u07/t-texto.md
+      - "7.D Interfaces gráficas": u07/t-gui.md
       - "U7.1 · Consola: entrada y salida estándar": u07/consola.md
       - "U7.2 · Archivos y carpetas": u07/archivos.md
       - "U7.3 · Ficheros de texto": u07/texto.md

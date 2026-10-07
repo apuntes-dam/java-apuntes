@@ -2,6 +2,13 @@
 
 Hablar con el exterior: la consola, el sistema de archivos, los ficheros de texto y las **interfaces gráficas** con estado y eventos.
 
+## Teoría
+
+* [7.A Consola: entrada y salida](t-consola.md): los tres flujos estándar, formato y lectura de datos.
+* [7.B Archivos y carpetas](t-archivos.md): rutas, consultar, copiar, mover y borrar.
+* [7.C Ficheros de texto](t-texto.md): escribir, añadir, leer por líneas y cerrar el archivo.
+* [7.D Interfaces gráficas](t-gui.md): eventos, estado y una ventana completa.
+
 ## Antes de empezar: qué debes dominar
 
 * Entrada y salida estándar, y salida de error.
