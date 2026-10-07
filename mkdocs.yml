@@ -153,6 +153,12 @@ nav:
       - "A4.B Errores y casos límite": avanzado/a4/t-casos.md
       - "A4.C Aislar lo que no controlas": avanzado/a4/t-aislar.md
       - "A4 · Ejercicios de pruebas automáticas": avanzado/a4/ejercicios.md
+  - "A5 · Patrones de diseño":
+      - avanzado/a5/index.md
+      - "A5.A Patrones de creación": avanzado/a5/t-creacion.md
+      - "A5.B Patrones de comportamiento": avanzado/a5/t-comportamiento.md
+      - "A5.C Estructura y cuándo usar patrones": avanzado/a5/t-estructura.md
+      - "A5 · Ejercicios de patrones de diseño": avanzado/a5/ejercicios.md
   - Aplicaciones Híbridas · Tema 1:
       - tema1-ah/index.md
       - "Sesión 1 · Primeros pasos": tema1-ah/sesion1.md

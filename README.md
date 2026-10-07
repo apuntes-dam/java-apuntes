@@ -4,6 +4,8 @@
 
 Apuntes y ejercicios de **Java** con la estructura de las unidades 1 a 9 de Programación: teoría, **175 ejercicios** adaptados y soluciones modelo bloqueadas.
 
+Incluye además una sección **Avanzado** (interruptor «🎓 Avanzado» de la cabecera): programación funcional, genéricos, concurrencia, pruebas automáticas y patrones de diseño, con ejemplos ejecutados y ejercicios.
+
 Forma parte de [Practica los Lenguajes de Programación para 1º DAM y 2º DAM](https://apuntes-dam.github.io/apuntes-lenguajes/), donde puedes elegir otro lenguaje o ver las equivalencias entre ellos.
 
 ## Cómo está hecho
