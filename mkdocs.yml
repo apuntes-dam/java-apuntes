@@ -67,6 +67,12 @@ nav:
       - "P2.4 · Depurar programas": u02/depurar.md
   - "U3 · Estructuras de datos":
       - u03/index.md
+      - "3.0 Cadenas": u03/00-cadenas.md
+      - "3.1 Listas y tuplas": u03/01-listas.md
+      - "3.2 Mapas": u03/02-mapas.md
+      - "3.3 Conjuntos": u03/03-conjuntos.md
+      - "3.4 JSON": u03/04-json.md
+      - "3.5 XML": u03/05-xml.md
       - "U3.0 · Cadenas": u03/cadenas.md
       - "U3.1 · Listas y tuplas": u03/listas.md
       - "U3.2 · Mapas (diccionarios)": u03/mapas.md

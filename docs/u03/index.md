@@ -2,6 +2,15 @@
 
 Las colecciones donde se guardan los datos: cadenas, listas, mapas (diccionarios) y conjuntos, y los formatos **JSON** y **XML** para intercambiar información.
 
+## Teoría
+
+* [3.0 Cadenas](00-cadenas.md): recorrer, buscar y transformar texto.
+* [3.1 Listas y tuplas](01-listas.md): operaciones, copias, matrices y transformaciones.
+* [3.2 Mapas](02-mapas.md): pares clave y valor, consulta segura y recuento.
+* [3.3 Conjuntos](03-conjuntos.md): elementos sin repetir, unión, intersección y diferencia.
+* [3.4 JSON](04-json.md): leer, modificar y guardar datos, con archivos y errores.
+* [3.5 XML](05-xml.md): el árbol de elementos, atributos y XML inválido.
+
 ## Antes de empezar: qué debes dominar
 
 * Cadenas: recorrer, buscar, trocear y formatear texto.
