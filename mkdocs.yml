@@ -81,6 +81,11 @@ nav:
       - "U3.5 · XML": u03/xml.md
   - "U4 · Programación orientada a objetos":
       - u04/index.md
+      - "4.A Clases y objetos": u04/t-clases.md
+      - "4.B Encapsulamiento": u04/t-encapsulamiento.md
+      - "4.C Constructores y enumerados": u04/t-constructores.md
+      - "4.D Colecciones y miembros estáticos": u04/t-colecciones.md
+      - "4.E Del problema al programa": u04/t-modelar.md
       - "U4.1 · Repaso de las unidades 1 a 3": u04/repaso.md
       - "U4.2 · POO I (ejercicios 1 al 5)": u04/poo-1.md
       - "U4.3 · POO II (ejercicios 6 al 10)": u04/poo-2.md

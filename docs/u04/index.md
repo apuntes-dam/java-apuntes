@@ -2,6 +2,14 @@
 
 Pasar del código suelto a **clases y objetos**: atributos, métodos, constructores, validación, encapsulamiento y colecciones de objetos. Termina con un proyecto personal o en grupo.
 
+## Teoría
+
+* [4.A Clases y objetos](t-clases.md): atributos, métodos, constructor y referencias.
+* [4.B Encapsulamiento](t-encapsulamiento.md): visibilidad, validación, propiedades e igualdad.
+* [4.C Constructores y enumerados](t-constructores.md): varias formas de crear un objeto y tipos cerrados.
+* [4.D Colecciones y miembros estáticos](t-colecciones.md): objetos que contienen objetos y lo que pertenece a la clase.
+* [4.E Del problema al programa](t-modelar.md): cómo decidir las clases y pasar comportamiento como parámetro.
+
 ## Antes de empezar: qué debes dominar
 
 * Clase, objeto, atributo y método.
