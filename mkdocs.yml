@@ -30,6 +30,12 @@ extra_css:
   - assets/lenguajes.css?v=ed6a84c1
 extra_javascript:
   - assets/lenguajes.css?v=ed6a84c1
+extra_javascript:
+  - assets/lenguajes.css?v=ed6a84c1
+extra_javascript:
+  - assets/lenguajes.css?v=ed6a84c1
+extra_javascript:
+  - assets/lenguajes.css?v=ed6a84c1
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -57,6 +63,7 @@ nav:
       - "1.5 Compilar y ejecutar: JDK y JVM": u01/05-jdk.md
       - "1.6 Bucles: for y forEach": u01/06-bucles.md
       - "Prácticas": u01/practicas.md
+      - "Ejercicios de la unidad 1": u01/ejercicios.md
   - "U2 · Estructuras de control":
       - u02/index.md
       - "2.1 Condicionales": u02/01-condicionales.md
