@@ -2,6 +2,12 @@
 
 Guardar datos en una **base de datos relacional** desde el código: conexión, sentencias, consultas, transacciones, seguridad y el patrón DAO.
 
+## Teoría
+
+* [9.A Conectar y crear tablas](t-conexion.md): tablas, claves, motores, conexión y `CREATE TABLE`.
+* [9.B Consultas y modificaciones](t-consultas.md): `SELECT`, `JOIN`, `UPDATE`, `DELETE` y claves foráneas.
+* [9.C Buenas prácticas](t-buenas-practicas.md): pool, inyección SQL, transacciones y patrón DAO.
+
 ## Antes de empezar: qué debes dominar
 
 * Bases de datos relacionales y SQL básico (`SELECT`, `INSERT`, `UPDATE`, `DELETE`, `JOIN`).

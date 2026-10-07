@@ -122,6 +122,9 @@ nav:
       - "U7.4 · Interfaces gráficas": u07/gui.md
   - "U9 · Bases de datos relacionales":
       - u09/index.md
+      - "9.A Conectar y crear tablas": u09/t-conexion.md
+      - "9.B Consultas y modificaciones": u09/t-consultas.md
+      - "9.C Buenas prácticas": u09/t-buenas-practicas.md
       - "U9.1 · Conexión y creación de tablas": u09/conexion.md
       - "U9.2 · Consultas, borrados y modificaciones": u09/consultas.md
       - "U9.3 · Pool, seguridad, transacciones y DAO": u09/buenas-practicas.md
