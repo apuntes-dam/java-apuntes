@@ -26,9 +26,9 @@ theme:
     - search.highlight
 extra_css:
   - assets/extra.css
-  - assets/lenguajes.css?v=ecd61d9b
+  - assets/lenguajes.css?v=ed6a84c1
 extra_javascript:
-  - assets/lenguajes.js?v=ecd61d9b
+  - assets/lenguajes.js?v=ed6a84c1
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -141,6 +141,12 @@ nav:
       - "A2.B Restricciones y variación": avanzado/a2/t-restricciones.md
       - "A2.C Tu colección y qué pasa al ejecutar": avanzado/a2/t-coleccion.md
       - "A2 · Ejercicios de genéricos": avanzado/a2/ejercicios.md
+  - "A3 · Concurrencia y asincronía":
+      - avanzado/a3/index.md
+      - "A3.A Tareas a la vez": avanzado/a3/t-tareas.md
+      - "A3.B Resultados, errores y esperas": avanzado/a3/t-resultados.md
+      - "A3.C Compartir datos con seguridad": avanzado/a3/t-compartir.md
+      - "A3 · Ejercicios de concurrencia y asincronía": avanzado/a3/ejercicios.md
   - Aplicaciones Híbridas · Tema 1:
       - tema1-ah/index.md
       - "Sesión 1 · Primeros pasos": tema1-ah/sesion1.md
