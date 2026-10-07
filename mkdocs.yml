@@ -26,9 +26,9 @@ theme:
     - search.highlight
 extra_css:
   - assets/extra.css
-  - assets/lenguajes.css?v=fb5256f6
+  - assets/lenguajes.css?v=3820a46c
 extra_javascript:
-  - assets/lenguajes.js?v=fb5256f6
+  - assets/lenguajes.js?v=3820a46c
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -128,6 +128,13 @@ nav:
       - "U9.1 · Conexión y creación de tablas": u09/conexion.md
       - "U9.2 · Consultas, borrados y modificaciones": u09/consultas.md
       - "U9.3 · Pool, seguridad, transacciones y DAO": u09/buenas-practicas.md
+  - "Avanzado": avanzado/index.md
+  - "A1 · Programación funcional":
+      - avanzado/a1/index.md
+      - "A1.A Funciones como valores": avanzado/a1/t-funciones.md
+      - "A1.B Colecciones sin bucles": avanzado/a1/t-colecciones.md
+      - "A1.C Componer, esperar e inmutabilidad": avanzado/a1/t-composicion.md
+      - "A1 · Ejercicios de programación funcional": avanzado/a1/ejercicios.md
   - Aplicaciones Híbridas · Tema 1:
       - tema1-ah/index.md
       - "Sesión 1 · Primeros pasos": tema1-ah/sesion1.md

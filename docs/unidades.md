@@ -21,3 +21,6 @@ Recorrido sugerido: **lee la unidad, practícala y marca la casilla del final** 
 
 !!! tip "Documentación oficial"
     Para ampliar cualquier tema de la lista «qué debes dominar»: [dev.java/learn](https://dev.java/learn/).
+
+!!! tip "¿Quieres ir más allá?"
+    Activa el interruptor **Avanzado** de la cabecera para ver el [material avanzado](avanzado/index.md): programación funcional y más.
