@@ -96,6 +96,10 @@ nav:
       - "U4.8 · Cambio de rol: explícamelo tú (grupos)": u04/cambio-de-rol.md
   - "U5 · Herencia, clases abstractas e interfaces":
       - u05/index.md
+      - "5.A Herencia": u05/t-herencia.md
+      - "5.B Polimorfismo y clases abstractas": u05/t-abstractas.md
+      - "5.C Interfaces": u05/t-interfaces.md
+      - "5.D Jerarquías cerradas": u05/t-sealed.md
       - "U5.1 · Clases abstractas, interfaces y herencia": u05/herencia.md
   - "U6 · Diseño de programas con POO":
       - u06/index.md
