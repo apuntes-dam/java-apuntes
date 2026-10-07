@@ -18,3 +18,6 @@ Recorrido sugerido: **lee la unidad, practícala y marca la casilla del final** 
 
 !!! info "Cómo funciona el desbloqueo"
     Es un bloqueo **suave**, guardado en tu navegador: sirve para llevar el orden, no para esconder nada. Puedes desbloquear una unidad directamente desde la página de sus ejercicios.
+
+!!! tip "Documentación oficial"
+    Para ampliar cualquier tema de la lista «qué debes dominar»: [dev.java/learn](https://dev.java/learn/).

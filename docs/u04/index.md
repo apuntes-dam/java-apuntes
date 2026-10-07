@@ -10,9 +10,6 @@ Pasar del código suelto a **clases y objetos**: atributos, métodos, constructo
 * Enumerados, sobrecarga y `toString`/igualdad.
 * Colecciones de objetos y validación con excepciones.
 
-!!! tip "Dónde repasarlo en Java"
-    Documentación oficial: [dev.java/learn](https://dev.java/learn/). Busca los términos de la lista anterior.
-
 ## Ejercicios de la unidad
 
 | Bloque | Ejercicios |

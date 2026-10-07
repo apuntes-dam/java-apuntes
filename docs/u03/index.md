@@ -10,9 +10,6 @@ Las colecciones donde se guardan los datos: cadenas, listas, mapas (diccionarios
 * Conjuntos: elementos sin repetir y operaciones de unión, intersección y diferencia.
 * JSON y XML: leer, modificar y guardar datos en un archivo.
 
-!!! tip "Dónde repasarlo en Java"
-    Documentación oficial: [dev.java/learn](https://dev.java/learn/). Busca los términos de la lista anterior.
-
 ## Ejercicios de la unidad
 
 | Bloque | Ejercicios |

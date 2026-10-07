@@ -10,9 +10,6 @@ Guardar datos en una **base de datos relacional** desde el código: conexión, s
 * Transacciones: `commit` y `rollback`.
 * Capa de acceso a datos (DAO).
 
-!!! tip "Dónde repasarlo en Java"
-    Documentación oficial: [dev.java/learn](https://dev.java/learn/). Busca los términos de la lista anterior.
-
 ## Ejercicios de la unidad
 
 | Bloque | Ejercicios |

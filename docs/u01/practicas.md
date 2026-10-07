@@ -1,17 +1,12 @@
 # Prácticas
 
-## P1. Preparar el entorno
-Instala un JDK, comprueba `java -version` y `javac -version`, compila y ejecuta `Hola.java` desde la terminal.
+Las prácticas de esta unidad están repartidas por la web; aquí solo queda lo que no se repite en otra página.
 
-## P2. Ejercicios progresivos de Java
-1. Pide dos números y muestra suma, resta, producto, división y resto.
-2. Convierte grados Celsius a Fahrenheit con `double`.
-3. Declara una constante `final` con el IVA (0.21) y calcula el precio final de un producto.
-4. Lee un número como texto y conviértelo con `Integer.parseInt`, controlando `NumberFormatException`.
-5. Guarda tres nombres en una `ArrayList<String>` y muéstralos.
+!!! info "Dónde está lo demás"
+    * **Preparar el entorno:** [Compilar y ejecutar: JDK y JVM](05-jdk.md).
+    * **Ejercicios progresivos** (operaciones, Celsius a Fahrenheit, IVA, conversión de texto, listas): [ejercicios de la unidad 1](ejercicios.md).
+    * **Entrega con Git:** la web de [Git y GitHub](https://apuntes-dam.github.io/git-apuntes/).
 
-## P3. Proyecto con pruebas
+## P1. Proyecto con pruebas
+
 Crea un proyecto Maven con un método `esPar(int n)` y escribe al menos tres pruebas JUnit, incluido el caso `0`.
-
-## P4. Git
-Sube las prácticas a un repositorio con commits pequeños y mensajes claros. No incluyas claves ni tokens.

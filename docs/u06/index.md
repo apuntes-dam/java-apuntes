@@ -8,9 +8,6 @@ Diseñar bien: jerarquías de clases con sentido, los cinco principios **SOLID**
 * Principios SOLID: S, O, L, I y D.
 * Cuándo comentar y cuándo no; documentación de clases y funciones.
 
-!!! tip "Dónde repasarlo en Java"
-    Documentación oficial: [dev.java/learn](https://dev.java/learn/). Busca los términos de la lista anterior.
-
 ## Ejercicios de la unidad
 
 | Bloque | Ejercicios |
