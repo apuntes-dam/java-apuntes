@@ -21,12 +21,18 @@ theme:
         icon: material/weather-sunny
         name: Cambiar a modo oscuro
   features:
-    - navigation.sections
+    - navigation.indexes
     - navigation.top
     - content.code.copy
     - search.highlight
 extra_css:
   - assets/extra.css
+  - assets/lenguajes.css?v=ed6a84c1
+extra_javascript:
+  - assets/lenguajes.css?v=ed6a84c1
+extra_javascript:
+  - assets/lenguajes.css?v=ed6a84c1
+extra_javascript:
   - assets/lenguajes.css?v=ed6a84c1
 extra_javascript:
   - assets/lenguajes.css?v=ed6a84c1
