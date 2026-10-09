@@ -54,6 +54,9 @@ Gestiona las facturas pendientes de cobro con un mapa (número de factura → im
 
 Gestiona una base de datos de clientes: mapa NIF → otro mapa con nombre, dirección, teléfono, correo y `preferente` (verdadero/falso). Menú: (1) añadir, (2) eliminar, (3) mostrar un cliente, (4) listar todos, (5) listar preferentes, (6) terminar.
 
+!!! note "En Java"
+    El mapa interior mezcla textos y un booleano: usa `Map<String, Object>` (o guarda `preferente` como texto).
+
 ## Ejercicio 3.2.11
 
 El directorio de clientes es un texto con una línea por cliente, separadas por salto de línea, y la primera con los nombres de los campos:

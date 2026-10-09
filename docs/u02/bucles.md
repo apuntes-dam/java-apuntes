@@ -24,6 +24,9 @@ Pide un entero positivo y muestra la cuenta atrás hasta cero, separada por coma
 
 Pide una cantidad a invertir, el interés anual y los años, y muestra el capital obtenido cada año. Cada año: `capital *= 1 + interes / 100`.
 
+!!! note "En Java"
+    Si lees el interés como entero, `interes / 100` es una división entera y da `0` (con `5` sale `0`, no `0.05`) y el capital no crece. Lee el interés como `double` o divide entre `100.0`.
+
 ## Ejercicio 2.2.6
 
 Pide un entero y dibuja un triángulo rectángulo de esa altura:

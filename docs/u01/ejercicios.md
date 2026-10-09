@@ -81,13 +81,16 @@ Pide el precio final de un artículo y, suponiendo un IVA del 10 %, muestra el I
 
 Pide tres números y muestra su suma.
 
+!!! note "En Java"
+    Si el usuario escribe los tres números en una sola línea (`4 5 6`), puedes leerla entera y separarla con `teclado.nextLine().split(" ")`.
+
 ## Ejercicio 1.2.8
 
-Resuelve el ejercicio 1.2.7 usando solo dos variables distintas.
+Pide una cantidad de segundos y muéstrala en horas, minutos y segundos. Por ejemplo, `3725` segundos son `1 h 2 min 5 s`.
 
 ## Ejercicio 1.2.9
 
-¿Se puede resolver el ejercicio 1.2.7 sin usar ninguna variable? Inténtalo y explica qué has hecho.
+Guarda dos valores en las variables `a` y `b`, pedidos por teclado. Intercambia sus valores (que `a` acabe con lo que tenía `b` y al revés) y muestra ambas variables antes y después del intercambio.
 
 ## Ejercicio 1.2.10
 
@@ -102,6 +105,9 @@ Lee un entero positivo `n` y muestra la suma de los enteros de 1 a `n`. Hazlo de
 ## Ejercicio 1.2.12
 
 Pide peso (kg) y estatura (m), calcula el índice de masa corporal (peso / estatura²) y muestra `Tu índice de masa corporal es X`, con X redondeado a 2 decimales.
+
+!!! note "En Java"
+    `printf("%.2f")` y `String.format` usan el idioma del equipo: en uno en español escriben `22,86` con coma. Si quieres siempre el punto, pasa `Locale.US` como primer argumento.
 
 <details class="sol" data-key="p1-2/1.2.12">
 <summary>Solución modelo (bloqueada)</summary>
@@ -135,6 +141,9 @@ Una juguetería envía payasos (112 g cada uno) y muñecas (75 g cada una). Lee 
 
 Una cuenta de ahorros da un 4 % de interés anual que se suma al saldo a final de año. Lee el dinero depositado y muestra el saldo tras el primer, segundo y tercer año, redondeado a 2 decimales. Fórmula de cada año: `capital · (1 + interés)`.
 
+!!! note "En Java"
+    `printf("%.2f")` y `String.format` usan el idioma del equipo: en uno en español escriben `22,86` con coma. Si quieres siempre el punto, pasa `Locale.US` como primer argumento.
+
 ## Ejercicio 1.2.16
 
 Una panadería vende barras a 3,49 € (defínelo como constante). Las que no son del día tienen un 60 % de descuento. Lee cuántas barras no frescas se venden y muestra el precio habitual, el descuento aplicado y el coste total.
@@ -146,6 +155,9 @@ Pide un nombre y un entero `n` y muestra el nombre `n` veces, cada una en una l�
 ## Ejercicio 1.2.18
 
 Pide el nombre completo y muéstralo tres veces: todo en minúsculas, todo en mayúsculas y con la inicial de cada palabra en mayúscula. El usuario puede escribirlo con cualquier combinación de mayúsculas y minúsculas.
+
+!!! note "En Java"
+    Java no trae una función para esto: separa las palabras con `split(" ")` y, en cada una, junta `substring(0, 1).toUpperCase()` con el resto en minúsculas.
 
 ## Ejercicio 1.2.19
 
@@ -171,6 +183,9 @@ Pide un correo electrónico y muestra otro con el mismo nombre de usuario (lo qu
 
 Pide el precio de un producto en euros con dos decimales y muestra cuántos euros y cuántos céntimos son.
 
+!!! note "En Java"
+    No obtengas los céntimos multiplicando el decimal por 100: `19.99 * 100` no da exactamente `1999` sino `1998.9999999999998`, y al quedarte con la parte entera salen 1998. Separa el texto por el punto o redondea.
+
 ## Ejercicio 1.2.25
 
 Pide una fecha de nacimiento con formato `dd/mm/aaaa` y muestra día, mes y año. Después adáptalo para que funcione si el día o el mes se escriben con un solo dígito.
@@ -183,9 +198,15 @@ Pide los productos de una cesta de la compra separados por comas y muestra cada 
 
 Pide el nombre de un producto, su precio y las unidades, y muestra una línea con el nombre, el precio unitario (6 dígitos enteros y 2 decimales), las unidades (3 dígitos) y el coste total (8 dígitos enteros y 2 decimales).
 
+!!! note "En Java"
+    Con `printf`, `%9.2f` reserva 9 posiciones con 2 decimales (y en un equipo en español pone coma; ver la nota del ejercicio 1.2.12).
+
 ## Ejercicio 1.2.28
 
 Calcula el área de un triángulo a partir de sus tres lados (fórmula de Herón). Indica qué ocurre si las longitudes no pueden formar un triángulo.
+
+!!! note "En Java"
+    `Math.sqrt` de un número negativo no lanza ninguna excepción: devuelve `NaN`. Compruébalo antes de calcular.
 
 ## Ejercicio 1.2.29
 

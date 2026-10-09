@@ -82,4 +82,4 @@ y muestra su producto (una matriz 2x2). Después prueba con `B · A` (resultado 
 
 ## Ejercicio 3.1.13
 
-Pide una muestra de números separados por comas, guárdalos en una lista y muestra su **media** y su **desviación típica**.
+Pide una muestra de números separados por comas, guárdalos en una lista y muestra su **media** y su **desviación típica poblacional** (la raíz de la media de los cuadrados de las diferencias con la media, dividiendo entre `n`).

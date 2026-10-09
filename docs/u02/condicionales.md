@@ -12,6 +12,9 @@ Pide la edad y muestra si la persona es mayor de edad o no.
 
 Guarda una contraseña en una variable, pide al usuario que la escriba y muestra si coincide **sin distinguir mayúsculas de minúsculas**.
 
+!!! note "En Java"
+    No compares textos con `==`: compara referencias, no el contenido. Usa `equals` o `equalsIgnoreCase`.
+
 ## Ejercicio 2.1.3
 
 Pide dos números y muestra su división. Si el divisor es cero, muestra un error.
@@ -19,6 +22,9 @@ Pide dos números y muestra su división. Si el divisor es cero, muestra un erro
 ## Ejercicio 2.1.4
 
 Pide un entero y muestra si es par o impar.
+
+!!! note "En Java"
+    Con números negativos, `%` en Java da resto negativo: `-3 % 2` vale `-1`, no `1`. Comprueba si es par con `n % 2 == 0` y deja el impar para el `else`.
 
 <details class="sol" data-key="p2-1/2.1.4">
 <summary>Solución modelo (bloqueada)</summary>
@@ -37,6 +43,9 @@ Para tributar un impuesto hay que ser mayor de 16 años **y** tener unos ingreso
 ## Ejercicio 2.1.6
 
 Un curso se divide en dos grupos según sexo y nombre. El grupo A son las mujeres con nombre anterior a la M y los hombres con nombre posterior a la N; el grupo B, el resto. Pregunta nombre y sexo y muestra el grupo.
+
+!!! note "En Java"
+    Java no compara textos con `<`. Toma la primera letra con `charAt(0)` (un `char` sí se puede comparar) o usa `compareTo`.
 
 ## Ejercicio 2.1.7
 

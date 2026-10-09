@@ -17,7 +17,7 @@ En Python, si `fruta` es una cadena, ¿qué significa `fruta[:]`? Explícalo y e
 
 ## Ejercicio 3.0.3
 
-Dado este recuento de letras `a` en `banana`, conviértelo en una función `cuenta(texto, letra)` genérica que reciba la cadena y la letra:
+Escribe una función `cuenta(texto, letra)` que reciba una cadena y una letra y devuelva cuántas veces aparece la letra (por ejemplo, las `a` de `banana`):
 
 ```text
 cuenta("consuelo", "o")  ->  2

@@ -16,6 +16,9 @@ Pide un entero positivo y muestra los impares de 1 hasta ese número, separados 
 
 Pide un entero positivo y muestra la cuenta atrás hasta cero. Repite la petición hasta que el número sea correcto.
 
+!!! note "En Java"
+    Si usas `teclado.nextInt()` y escriben letras, el texto **no se consume** y el siguiente `nextInt()` vuelve a fallar con el mismo texto (bucle infinito). Lee la línea entera con `nextLine()` y conviértela con `Integer.parseInt`.
+
 ## Ejercicio 2.3.4
 
 Pide un entero. Si la entrada no es correcta, muestra `La entrada no es correcta` y vuelve a lanzar la excepción capturada.
