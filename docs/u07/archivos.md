@@ -9,7 +9,7 @@ Consultar rutas, listar carpetas y crear o borrar ficheros y directorios.
 **Información de una ruta.** Pide una ruta y muestra: si existe, si es archivo o carpeta, su nombre, su ruta absoluta, su carpeta padre, su tamaño (si es archivo) y su fecha de última modificación. Si no existe, indícalo sin que el programa falle.
 
 !!! note "En Java"
-    Usa `java.nio.file.Path`, `Files` (`exists`, `isDirectory`, `size`, `getLastModifiedTime`) o `java.io.File`.
+    Usa `java.nio.file.Path`, `Files` (`exists`, `isDirectory`, `size`, `getLastModifiedTime`; ver [7.E](t-path.md)) o `java.io.File`.
 
 ## Ejercicio 7.5
 

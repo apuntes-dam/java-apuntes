@@ -27,7 +27,7 @@ theme:
     - search.highlight
 extra_css:
   - assets/extra.css
-  - assets/lenguajes.css?v=a75313c9
+  - assets/lenguajes.css?v=499d1441
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -116,10 +116,12 @@ nav:
       - "7.B Archivos y carpetas": u07/t-archivos.md
       - "7.C Ficheros de texto": u07/t-texto.md
       - "7.D Interfaces gráficas": u07/t-gui.md
+      - "7.E Ficheros con Path, bytes y bloques": u07/t-path.md
       - "U7.1 · Consola: entrada y salida estándar": u07/consola.md
       - "U7.2 · Archivos y carpetas": u07/archivos.md
       - "U7.3 · Ficheros de texto": u07/texto.md
       - "U7.4 · Interfaces gráficas": u07/gui.md
+      - "U7.5 · Ficheros con Path, bytes y bloques": u07/path.md
   - "U9 · Bases de datos relacionales":
       - u09/index.md
       - "9.A Conectar y crear tablas": u09/t-conexion.md

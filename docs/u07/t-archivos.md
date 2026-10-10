@@ -2,6 +2,9 @@
 
 Los programas guardan datos en **archivos**, organizados en **carpetas** (directorios). Saber consultar, crear, copiar, mover y borrar es la base para cualquier programa que trabaje con datos que deben sobrevivir al cierre.
 
+!!! tip "Path y Files, y qué excepción salta"
+    Esta página usa `File`, que es lo más corto. Java también tiene la clase `Path` y las operaciones de `Files` (paquete `java.nio.file`), que son las que se usan en Acceso a Datos y lanzan excepciones que explican el fallo (`NoSuchFileException`, `FileAlreadyExistsException`...). Están en [7.E](t-path.md).
+
 ## Rutas
 
 Una **ruta** indica dónde está un archivo o carpeta.

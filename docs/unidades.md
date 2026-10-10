@@ -10,7 +10,7 @@ Recorrido sugerido: **lee la unidad, practícala y marca la casilla del final** 
 | [U4 · Programación orientada a objetos](u04/index.md) | Clases, objetos, constructores, enumerados y un proyecto | 19 | <span class="u-estado" data-unit="u04"></span> |
 | [U5 · Herencia, clases abstractas e interfaces](u05/index.md) | Herencia, polimorfismo, abstractas e interfaces | 10 | <span class="u-estado" data-unit="u05"></span> |
 | [U6 · Diseño de programas con POO](u06/index.md) | Jerarquías, SOLID y documentación | 13 | <span class="u-estado" data-unit="u06"></span> |
-| [U7 · Entrada/salida y GUI](u07/index.md) | Consola, archivos, ficheros de texto e interfaces gráficas | 15 | <span class="u-estado" data-unit="u07"></span> |
+| [U7 · Entrada/salida y GUI](u07/index.md) | Consola, archivos, ficheros de texto e interfaces gráficas | 21 | <span class="u-estado" data-unit="u07"></span> |
 | [U9 · Bases de datos relacionales](u09/index.md) | Conexión, consultas, transacciones y patrón DAO | 9 | <span class="u-estado" data-unit="u09"></span> |
 
 !!! note "La unidad 8"

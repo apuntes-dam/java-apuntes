@@ -8,6 +8,7 @@ Hablar con el exterior: la consola, el sistema de archivos, los ficheros de text
 * [7.B Archivos y carpetas](t-archivos.md): rutas, consultar, copiar, mover y borrar.
 * [7.C Ficheros de texto](t-texto.md): escribir, añadir, leer por líneas y cerrar el archivo.
 * [7.D Interfaces gráficas](t-gui.md): eventos, estado y una ventana completa.
+* [7.E Ficheros con Path, bytes y bloques](t-path.md): `Path` y `Files`, errores concretos, ficheros binarios y lectura por bloques.
 
 ## Antes de empezar: qué debes dominar
 
@@ -24,6 +25,7 @@ Hablar con el exterior: la consola, el sistema de archivos, los ficheros de text
 | [U7.2 · Archivos y carpetas](archivos.md) | 3 |
 | [U7.3 · Ficheros de texto](texto.md) | 5 |
 | [U7.4 · Interfaces gráficas](gui.md) | 4 |
+| [U7.5 · Ficheros con Path, bytes y bloques](path.md) | 6 |
 
 ## Antes de pasar a los ejercicios
 
