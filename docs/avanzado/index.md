@@ -12,6 +12,7 @@ Material para ir más allá de las unidades 1 a 9. Cada unidad tiene su teoría,
 | [A3 · Concurrencia y asincronía](a3/index.md) | Tareas a la vez, resultados y errores, límites de tiempo y datos compartidos | 6 | <span class="u-estado" data-unit="a3"></span> |
 | [A4 · Pruebas automáticas](a4/index.md) | Escribir pruebas, probar errores y casos límite, y aislar lo que no controlas | 6 | <span class="u-estado" data-unit="a4"></span> |
 | [A5 · Patrones de diseño](a5/index.md) | Singleton, fábrica, builder, estrategia, observador y decorador | 6 | <span class="u-estado" data-unit="a5"></span> |
+| [A6 · Procesos desde Java](a6/index.md) | Lanzar procesos con ProcessBuilder, hablar con ellos, controlarlos y observarlos con ProcessHandle | 6 | <span class="u-estado" data-unit="a6"></span> |
 
 !!! note "Antes de empezar"
     Da por sabidas las unidades 1 a 5 del [mapa de unidades](../unidades.md). Para ver cada idea comparada en los otros lenguajes: [Pasar de uno a otro](https://apuntes-dam.github.io/apuntes-lenguajes/pasar/).

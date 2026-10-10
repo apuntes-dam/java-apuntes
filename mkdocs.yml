@@ -161,6 +161,12 @@ nav:
       - "A5.B Patrones de comportamiento": avanzado/a5/t-comportamiento.md
       - "A5.C Estructura y cuándo usar patrones": avanzado/a5/t-estructura.md
       - "A5 · Ejercicios de patrones de diseño": avanzado/a5/ejercicios.md
+  - "A6 · Procesos desde Java":
+      - avanzado/a6/index.md
+      - "A6.A Lanzar un proceso": avanzado/a6/t-lanzar.md
+      - "A6.B Hablar con el proceso hijo": avanzado/a6/t-flujos.md
+      - "A6.C Controlar y observar procesos": avanzado/a6/t-controlar.md
+      - "A6 · Ejercicios de procesos": avanzado/a6/ejercicios.md
   - Aplicaciones Híbridas · Tema 1:
       - tema1-ah/index.md
       - "Sesión 1 · Primeros pasos": tema1-ah/sesion1.md
