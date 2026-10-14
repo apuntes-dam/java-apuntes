@@ -173,3 +173,6 @@ nav:
       - "Sesión 2 · Flujo, funciones y clases": tema1-ah/sesion2.md
       - "Sesión 3 · Asincronía": tema1-ah/sesion3.md
       - "Boletín": tema1-ah/boletin.md
+  - "PSP · Tema 1: procesos en Java":
+      - psp/index.md
+      - "Simulador de examen": psp/simulador.md
