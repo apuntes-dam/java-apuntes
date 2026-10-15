@@ -1,5 +1,15 @@
 # U1: Primer programa en Java
 
+<div class="narrador" data-slug="u01-index" data-voces="mujer:Mujer,hombre:Hombre,hombre2:Hombre 2" data-titulo="Resumen de la unidad 1"></div>
+
+??? note "Leer el resumen"
+    En esta unidad das tus primeros pasos con Java.
+    Primero aprendes a analizar un problema antes de programarlo: qué datos entran, qué hay que hacer con ellos y qué debe salir.
+    Después escribes programas sencillos y ves cómo se ejecutan. Conoces los tipos de datos básicos, que son números, texto y valores de verdad, y repites acciones con bucles.
+    Con Java, el programa se compila antes de ejecutarse, y para ello usas el JDK. También aprendes a comprobar que tu programa funciona, con pruebas.
+    Lee la teoría en orden y practica cada ejemplo antes de pasar a los ejercicios.
+
+
 ## 1. Contexto
 
 Esta unidad introduce el análisis de problemas, la escritura de programas sencillos y las herramientas para compilarlos, ejecutarlos y comprobarlos.

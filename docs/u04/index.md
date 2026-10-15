@@ -1,5 +1,14 @@
 # U4 · Programación orientada a objetos
 
+<div class="narrador" data-slug="u04-index" data-voces="mujer:Mujer,hombre:Hombre,hombre2:Hombre 2" data-titulo="Resumen de la unidad 4"></div>
+
+??? note "Leer el resumen"
+    En esta unidad pasas del código suelto a la programación orientada a objetos.
+    Una clase es un molde, y un objeto es cada cosa creada con ese molde. Cada clase tiene atributos, que son sus datos, y métodos, que son lo que sabe hacer.
+    Aprenderás a crear objetos con constructores, a validar los datos al crearlos, y a proteger los atributos con el encapsulamiento, para que nadie los cambie de cualquier manera. También guardarás colecciones de objetos.
+    Y terminas con un proyecto propio.
+
+
 Pasar del código suelto a **clases y objetos**: atributos, métodos, constructores, validación, encapsulamiento y colecciones de objetos. Termina con un proyecto personal o en grupo.
 
 ## Teoría

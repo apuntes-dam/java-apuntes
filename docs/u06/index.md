@@ -1,5 +1,13 @@
 # U6 · Diseño de programas con POO
 
+<div class="narrador" data-slug="u06-index" data-voces="mujer:Mujer,hombre:Hombre,hombre2:Hombre 2" data-titulo="Resumen de la unidad 6"></div>
+
+??? note "Leer el resumen"
+    Programar bien no es solo que funcione. Esta unidad trata de diseñar.
+    Verás cómo construir jerarquías de clases con sentido, y los cinco principios SOLID, que son reglas para que el código sea fácil de cambiar y de entender.
+    Y aprenderás a comentar y documentar el código, para que otras personas, y tú mismo dentro de unos meses, puedan leerlo sin perderse.
+
+
 Diseñar bien: jerarquías de clases con sentido, los cinco principios **SOLID** y cómo comentar y documentar el código.
 
 ## Teoría

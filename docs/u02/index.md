@@ -1,5 +1,14 @@
 # U2 · Estructuras de control
 
+<div class="narrador" data-slug="u02-index" data-voces="mujer:Mujer,hombre:Hombre,hombre2:Hombre 2" data-titulo="Resumen de la unidad 2"></div>
+
+??? note "Leer el resumen"
+    Hasta ahora los programas hacían siempre lo mismo, de arriba abajo. Con las estructuras de control, el programa decide y repite.
+    Con if y la selección múltiple, elige qué camino tomar según una condición. Con for, while y do-while, repite un bloque de instrucciones las veces que haga falta.
+    Las excepciones permiten reaccionar cuando algo sale mal, por ejemplo cuando el usuario escribe una letra donde se esperaba un número, sin que el programa se rompa.
+    Y al final aprendes a depurar: ejecutar el programa paso a paso para ver dónde se equivoca.
+
+
 Las estructuras que controlan el flujo del programa: decidir (`if`, selección múltiple), repetir (`for`, `while`, `do-while`) y reaccionar a los errores (excepciones). Incluye cómo **depurar** un programa paso a paso.
 
 ## Teoría

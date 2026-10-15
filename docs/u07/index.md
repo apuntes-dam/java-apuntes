@@ -1,5 +1,13 @@
 # U7 · Entrada/salida y GUI
 
+<div class="narrador" data-slug="u07-index" data-voces="mujer:Mujer,hombre:Hombre,hombre2:Hombre 2" data-titulo="Resumen de la unidad 7"></div>
+
+??? note "Leer el resumen"
+    Un programa útil habla con el exterior.
+    En esta unidad trabajas con la consola, con el sistema de archivos y con ficheros de texto, para leer y guardar datos.
+    Y construyes interfaces gráficas, con ventanas, botones y campos, que guardan un estado y reaccionan a eventos, como un clic o una tecla pulsada.
+
+
 Hablar con el exterior: la consola, el sistema de archivos, los ficheros de texto y las **interfaces gráficas** con estado y eventos.
 
 ## Teoría

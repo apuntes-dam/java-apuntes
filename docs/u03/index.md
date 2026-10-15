@@ -1,5 +1,14 @@
 # U3 · Estructuras de datos
 
+<div class="narrador" data-slug="u03-index" data-voces="mujer:Mujer,hombre:Hombre,hombre2:Hombre 2" data-titulo="Resumen de la unidad 3"></div>
+
+??? note "Leer el resumen"
+    Un programa real maneja muchos datos a la vez, y para eso existen las colecciones.
+    Las cadenas guardan texto. Las listas guardan datos en orden, y se accede a ellos por su posición. Los mapas, o diccionarios, guardan pares de clave y valor, y se busca por la clave. Los conjuntos guardan elementos sin repetir.
+    Además verás dos formatos para intercambiar información entre programas: JSON, muy usado en internet, y XML.
+    Elegir bien la colección es la mitad del trabajo.
+
+
 Las colecciones donde se guardan los datos: cadenas, listas, mapas (diccionarios) y conjuntos, y los formatos **JSON** y **XML** para intercambiar información.
 
 ## Teoría

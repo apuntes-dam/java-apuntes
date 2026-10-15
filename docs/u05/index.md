@@ -1,5 +1,14 @@
 # U5 · Herencia, clases abstractas e interfaces
 
+<div class="narrador" data-slug="u05-index" data-voces="mujer:Mujer,hombre:Hombre,hombre2:Hombre 2" data-titulo="Resumen de la unidad 5"></div>
+
+??? note "Leer el resumen"
+    Aquí aprendes a reutilizar código.
+    La herencia permite que una clase hija reciba los atributos y métodos de otra clase madre, y añada los suyos. El polimorfismo hace que un mismo mensaje se comporte distinto según el objeto que lo recibe.
+    Las clases abstractas sirven de base y no se pueden crear directamente. Y las interfaces son contratos: dicen qué métodos debe tener una clase, pero no cómo los hace.
+    Con estas piezas organizas un programa grande sin repetir código.
+
+
 Reutilizar y organizar clases: **herencia**, **polimorfismo**, clases abstractas e interfaces (contratos que varias clases cumplen).
 
 ## Teoría

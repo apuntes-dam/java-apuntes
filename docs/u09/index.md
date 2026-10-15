@@ -1,5 +1,13 @@
 # U9 · Bases de datos relacionales
 
+<div class="narrador" data-slug="u09-index" data-voces="mujer:Mujer,hombre:Hombre,hombre2:Hombre 2" data-titulo="Resumen de la unidad 9"></div>
+
+??? note "Leer el resumen"
+    Los datos importantes no se pueden perder al cerrar el programa, y por eso se guardan en una base de datos relacional.
+    Aprenderás a conectarte a ella desde el código, a ejecutar sentencias y consultas, y a agrupar varias operaciones en una transacción, para que se hagan todas o ninguna.
+    También verás cómo evitar los ataques de inyección de SQL, y el patrón DAO, que separa el código que habla con la base de datos del resto del programa.
+
+
 Guardar datos en una **base de datos relacional** desde el código: conexión, sentencias, consultas, transacciones, seguridad y el patrón DAO.
 
 ## Teoría
