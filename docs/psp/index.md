@@ -1,8 +1,14 @@
-# PSP · Tema 1: procesos en Java
+# PSP · Repaso de Java y procesos
 
-Esta sección acompaña al **Tema 1 (Multiprocesos)** del módulo *Programación de Servicios y Procesos* de 2.º DAM. La teoría y el boletín del módulo están en [la web del módulo](https://joselejimenez.github.io/PSP/) (es del profesorado, no de esta web). Aquí no se repite la teoría: se indica **dónde estudiar cada apartado** en las webs de apuntes y se añade un **simulador de examen** con la parte de Java.
+Esta sección acompaña al módulo *Programación de Servicios y Procesos* de 2.º DAM, en los temas que ya se han impartido: el **Tema 0 (Repaso de Java)** y el **Tema 1 (Multiprocesos)**. La teoría y los boletines del módulo están en [la web del módulo](https://joselejimenez.github.io/PSP/) (es del profesorado, no de esta web). Aquí no se repite la teoría: se indica **dónde estudiar cada apartado** en las webs de apuntes, se añade lo que faltaba y hay un **simulador de examen** tipo test.
 
-## Dónde estudiar cada apartado
+## Tema 0 · Repaso de Java
+
+Casi todo el Java de 1.º DAM que pide el tema está en las unidades de esta web. La página [Lo que completa el repaso](tema0.md) tiene la tabla **apartado por apartado** y añade lo que las unidades no detallan (`varargs`, recursión, trampas de arrays y de `Scanner`, `yield`, `equals` y `hashCode`, formato de texto y lectura de trazas).
+
+## Tema 1 · Multiprocesos
+
+### Dónde estudiar cada apartado
 
 | Apartado del Tema 1 | Dónde estudiarlo |
 |---|---|
@@ -18,4 +24,4 @@ Esta sección acompaña al **Tema 1 (Multiprocesos)** del módulo *Programación
 
 ## Simulador de examen
 
-El [simulador](simulador.md) practica lo que es de **Java**: crear procesos con `ProcessBuilder`, el código de salida, leer y enviar datos al hijo, redirecciones, tuberías, esperar con límite y terminar procesos, y `ProcessHandle`. Para la teoría de procesos, estados y planificación (con cálculos), usa el simulador de la web de Procesos.
+El [simulador](simulador.md) tiene dos temas. El **Tema 0** (repaso de Java) es un examen **tipo test**: preguntas de teoría, «qué muestra este programa» y completar una línea. El **Tema 1** practica lo que es de **Java**: crear procesos con `ProcessBuilder`, el código de salida, leer y enviar datos al hijo, redirecciones, tuberías, esperar con límite y terminar procesos, y `ProcessHandle`. Para la teoría de procesos, estados y planificación (con cálculos), usa el simulador de la web de Procesos.

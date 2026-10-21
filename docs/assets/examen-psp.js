@@ -146,8 +146,8 @@
     var q = it.q, h = '<div class="ex-card" id="ex-' + it.num + '"><div><strong>' + it.num + ".</strong> <small>" + esc(bloqueNombre(q.b)) + "</small></div>";
     if (it.tipo === "teoria") {
       it.orden = it.orden || barajar(q.o.map(function (t, i) { return { t: t, c: i === 0 }; }));
-      h += "<p>" + md(q.q) + "</p>";
-      it.orden.forEach(function (o, k) { h += '<label class="ex-op" data-k="' + k + '"><input type="radio" name="p' + it.num + '" value="' + k + '"> ' + md(o.t) + "</label>"; });
+      h += "<p>" + md(q.q) + "</p>" + (q.code ? "<pre><code>" + esc(q.code) + "</code></pre>" : "");
+      it.orden.forEach(function (o, k) { h += '<label class="ex-op" data-k="' + k + '"><input type="radio" name="p' + it.num + '" value="' + k + '"> ' + (o.t.indexOf("\n") >= 0 ? "<pre><code>" + esc(o.t) + "</code></pre>" : md(o.t)) + "</label>"; });
     } else if (it.tipo === "salida") {
       h += "<p>" + md(q.q) + "</p><pre><code>" + esc(q.code) + '</code></pre><p>Escribe, línea a línea, lo que aparece en pantalla:</p><textarea rows="6" name="p' + it.num + '" spellcheck="false"></textarea>';
     } else if (it.tipo === "hueco") {
