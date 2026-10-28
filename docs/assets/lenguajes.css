@@ -405,7 +405,8 @@ html:not([data-avanzado]) .nav-avanzado { display: none; }
 .pg-menu[hidden] { display: none; }
 .pg-menu-it { display: flex; align-items: center; gap: .5rem; width: 100%; padding: .35rem .5rem; border-radius: .35rem; font-size: .72rem; text-align: left; }
 .pg-menu-it:hover, .pg-menu-it:focus-visible { background: color-mix(in srgb, var(--md-default-fg-color) 12%, transparent); }
-.pg-forma { display: inline-flex; margin: 0 0 .4rem auto; border: .05rem solid var(--md-default-fg-color--lighter); border-radius: 1rem; overflow: hidden; }
+.pg-sub { display: flex; justify-content: flex-end; padding: .55rem .75rem 0; }
+.pg-forma { display: inline-flex; margin: 0; border: .05rem solid var(--md-default-fg-color--lighter); border-radius: 1rem; overflow: hidden; }
 .pg-fb { padding: .2rem .75rem; font-size: .68rem; }
 .pg-fb[aria-checked="true"] { background: var(--md-primary-fg-color); color: var(--md-primary-bg-color); font-weight: 700; }
 .pg-fb:not([aria-checked="true"]):hover { background: color-mix(in srgb, var(--md-default-fg-color) 12%, transparent); }
@@ -415,5 +416,11 @@ html:not([data-avanzado]) .nav-avanzado { display: none; }
 .pg-cab { margin: .6rem 0 0; font-weight: 700; font-size: .72rem; color: var(--md-default-fg-color--light); }
 .pg-ok .pg-cab { display: none; }
 .pg-tab-nom:focus-visible, .pg-fb:focus-visible, .pg-mas:focus-visible { outline: .12rem solid var(--md-accent-fg-color); outline-offset: .05rem; }
-@media (max-width: 44.9375em) { .pg-tab-nom span { font-size: .68rem; } .pg-forma { margin-left: 0; } }
-@media print { .pg-barra { display: none; } .pg-panel[hidden] { display: block; } }
+@media (max-width: 44.9375em) {
+  .pg-barra { flex-wrap: nowrap; gap: 0 .2rem; padding: .4rem .35rem 0; }
+  .pg-tabs { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; }
+  .pg-tab { flex: none; padding: 0 .2rem 0 .05rem; }
+  .pg-tab-nom { padding: .4rem .15rem .4rem .35rem; gap: .25rem; } .pg-tab-nom span { font-size: .68rem; }
+  .pg-ancla { flex: none; } .pg-sub { justify-content: flex-start; }
+}
+@media print { .pg-barra, .pg-sub { display: none; } .pg-panel[hidden] { display: block; } }

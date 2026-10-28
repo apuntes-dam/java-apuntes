@@ -1,6 +1,6 @@
 # PSP · Repaso de Java y procesos
 
-Esta sección acompaña al módulo *Programación de Servicios y Procesos* de 2.º DAM, en los temas que ya se han impartido: el **Tema 0 (Repaso de Java)** y el **Tema 1 (Multiprocesos)**. La teoría y los boletines del módulo están en [la web del módulo](https://joselejimenez.github.io/PSP/) (es del profesorado, no de esta web). Aquí no se repite la teoría: se indica **dónde estudiar cada apartado** en las webs de apuntes, se añade lo que faltaba y hay un **simulador de examen** tipo test.
+Esta sección acompaña al módulo *Programación de Servicios y Procesos* de 2.º DAM, en los temas que ya se han impartido: el **Tema 0 (Repaso de Java)**, el **Tema 1 (Multiprocesos)** y, desde la sesión 1, el **Tema 2 (Multihilos)**. La teoría y los boletines del módulo están en [la web del módulo](https://joselejimenez.github.io/PSP/) (es del profesorado, no de esta web). Aquí no se repite la teoría: se indica **dónde estudiar cada apartado** en las webs de apuntes, se añade lo que faltaba y hay un **simulador de examen** tipo test.
 
 ## Tema 0 · Repaso de Java
 
@@ -21,6 +21,10 @@ Casi todo el Java de 1.º DAM que pide el tema está en las unidades de esta web
 
 !!! note "La unidad A6 está en el modo Avanzado"
     La unidad **A6 · Procesos desde Java** solo aparece en el menú con el interruptor **Avanzado** de la cabecera activado. Sus enlaces de arriba funcionan igual.
+
+## Tema 2 · Multihilos
+
+La [sesión 1](tema2/index.md) trabaja los **hilos en Java 21**: qué es un hilo, cómo se crea, su ciclo de vida, `sleep`, `join` e `interrupt`, los hilos demonio y los **hilos virtuales**, con una práctica guiada (un gestor de descargas) y [ejercicios](tema2/ejercicios.md) con solución. Los ejemplos tienen **selector de lenguaje** (Java por defecto, Kotlin, Python y C#) y se ven como función o como clase. Las sesiones 2 y 3 (condiciones de carrera, sincronización, cooperación entre hilos y *pools*) se añadirán cuando se impartan.
 
 ## Simulador de examen
 

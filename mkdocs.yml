@@ -28,7 +28,7 @@ theme:
 extra_css:
   - assets/narrador.css
   - assets/extra.css
-  - assets/lenguajes.css?v=bf74ad1d
+  - assets/lenguajes.css?v=ba7ca377
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -39,6 +39,7 @@ markdown_extensions:
   - admonition
   - tables
   - attr_list
+  - md_in_html
   - toc:
       permalink: true
   - pymdownx.highlight
@@ -177,6 +178,15 @@ nav:
   - "PSP · Repaso de Java y procesos":
       - psp/index.md
       - "Tema 0 · Lo que completa el repaso": psp/tema0.md
+      - "Tema 2 · Multihilos":
+          - psp/tema2/index.md
+          - "2.1 Proceso frente a hilo": psp/tema2/01-proceso-hilo.md
+          - "2.2 Crear hilos": psp/tema2/02-crear.md
+          - "2.3 Ciclo de vida": psp/tema2/03-ciclo-vida.md
+          - "2.4 Controlar hilos": psp/tema2/04-controlar.md
+          - "2.5 Hilos virtuales": psp/tema2/05-virtuales.md
+          - "2.6 Práctica: gestor de descargas": psp/tema2/06-descargas.md
+          - "Ejercicios del Tema 2": psp/tema2/ejercicios.md
       - "Simulador de examen": psp/simulador.md
 
 extra_javascript:
