@@ -159,8 +159,8 @@ fun main() {
 **Salida:**
 
 ```text
-Hola desde T2
 Hola desde T1
+Hola desde T2
 Fin del main
 ```
 

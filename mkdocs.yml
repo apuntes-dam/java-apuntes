@@ -28,7 +28,7 @@ theme:
 extra_css:
   - assets/narrador.css
   - assets/extra.css
-  - assets/lenguajes.css?v=ba7ca377
+  - assets/lenguajes.css?v=e142d27e
 extra:
   social:
     - icon: fontawesome/brands/github
