@@ -1,6 +1,6 @@
 # PSP · Repaso de Java y procesos
 
-Esta sección acompaña al módulo *Programación de Servicios y Procesos* de 2.º DAM, en los temas que ya se han impartido: el **Tema 0 (Repaso de Java)**, el **Tema 1 (Multiprocesos)** y, desde la sesión 1, el **Tema 2 (Multihilos)**. La teoría y los boletines del módulo están en [la web del módulo](https://joselejimenez.github.io/PSP/) (es del profesorado, no de esta web). Aquí no se repite la teoría: se indica **dónde estudiar cada apartado** en las webs de apuntes, se añade lo que faltaba y hay un **simulador de examen** tipo test.
+Esta sección acompaña al módulo *Programación de Servicios y Procesos* de 2.º DAM, en los temas que ya se han impartido: el **Tema 0 (Repaso de Java)**, el **Tema 1 (Multiprocesos)** y, desde la sesión 1, el **Tema 2 (Multihilos)**. La teoría y los boletines del módulo están en [la web del módulo](https://joselejimenez.github.io/PSP/) (es del profesorado, no de esta web). Aquí no se repite la teoría: se indica **dónde estudiar cada apartado** en las webs de apuntes, se añade lo que faltaba.
 
 ## Tema 0 · Repaso de Java
 
