@@ -1,9 +1,3 @@
----
-search:
-  exclude: true
-noindex: true
----
-
 # Simulador de examen · PSP (Temas 0, 1 y 2)
 
 Elige el tema. El **Tema 0 · Repaso de Java** es **tipo test**: preguntas de teoría, **qué muestra un programa** (con cuatro salidas posibles) y **completar una línea** (la correcta compila, las falsas no). El **Tema 1** practica la parte de **Java** de los procesos: preguntas de teoría, qué hace un programa con procesos hijo, completar una línea y escribir código. El **Tema 2 · Multihilos** es **tipo test** como el Tema 0: teoría, **qué muestra un programa con hilos** (con su salida real) y **completar una línea**.

@@ -187,6 +187,7 @@ nav:
           - "2.5 Hilos virtuales": psp/tema2/05-virtuales.md
           - "2.6 Práctica: gestor de descargas": psp/tema2/06-descargas.md
           - "Ejercicios del Tema 2": psp/tema2/ejercicios.md
+      - "Simulador de examen": psp/simulador.md
 
 extra_javascript:
   - assets/narrador.js
