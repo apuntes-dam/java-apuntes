@@ -15,7 +15,6 @@ El **Tema 0** del módulo (*Repaso de Java*) recorre el Java de 1.º DAM. Casi t
 | 7. Java moderno (lambdas, streams, `Optional`, `enum`, `record`) | [A1 · Programación funcional](../avanzado/a1/index.md) y [U4](../u04/index.md) |
 | 8. Ficheros y entrada/salida estándar | [U7 · Entrada/salida](../u07/index.md) y [7.E](../u07/t-path.md) |
 
-Para comprobar lo que sabes de todo el tema hay un [simulador de examen tipo test](simulador.md).
 
 ## Métodos con número variable de argumentos (`varargs`)
 
@@ -386,5 +385,4 @@ Exception in thread "main" java.lang.NumberFormatException: For input string: "a
 La primera línea dice el **tipo** y el **mensaje**; las siguientes, la cadena de llamadas, y la que importa es la primera de **tu** código: `Traza.convertir(Traza.java:3)`, el método y la línea donde se produjo el error. El programa terminó con código de salida **1**.
 ## Para seguir
 
-* [Simulador de examen](simulador.md) (tipo test, con preguntas de «qué muestra este programa» y de completar una línea).
 * El Tema 1 (procesos) está en la [página de entrada de PSP](index.md).
