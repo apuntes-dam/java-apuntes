@@ -158,3 +158,84 @@ public class Medir {
         long[] parciales = new long[hilos];                   // cada hilo escribe SOLO en su hueco: no hay carrera
 // ... (resto de la solución bloqueado)</code></pre></div>
 </details>
+
+## Boletín de la sesión 2: condición de carrera, `synchronized` y clases atómicas
+
+Del 8 al 12. Son más largos que los de la sesión 1: cada uno compara una versión **sin proteger** (que falla) con una o varias versiones **arregladas**.
+
+## Ejercicio 8
+
+**Encuentra la condición de carrera.** Para cada fragmento, di si hay condición de carrera y, si la hay, cuál es la **sección crítica** y cómo la arreglarías:
+
+1. Ocho hilos leen el mismo array de precios para mostrarlo por pantalla.
+2. Cuatro hilos ejecutan `total = total + importe;` sobre un `static double total`.
+3. Cada hilo crea su propio `StringBuilder`, le añade texto y lo imprime.
+4. Una web de reservas: `if (asientosLibres > 0) { asientosLibres--; confirmar(); }`.
+5. Dos hilos hacen `lista.add(x)` sobre el mismo `ArrayList`.
+6. Un hilo rellena una lista; el `main` espera con `join()` a que termine y después la recorre.
+
+<details class="sol" data-key="java/psp-t2/E8">
+<summary>Solución modelo (bloqueada)</summary>
+<div class="sol-body"><p class="sol-aviso">🔒 La solución completa está bloqueada. Esto es solo un ejemplo de cómo empieza:</p><pre><code>public class SumaDouble {
+    static double total = 0;
+    public static void main(String[] args) throws InterruptedException {
+        Thread[] hilos = new Thread[4];
+        for (int i = 0; i &lt; 4; i++) {
+// ... (resto de la solución bloqueado)</code></pre></div>
+</details>
+
+## Ejercicio 9
+
+**Sumar un array en paralelo.** Crea un array de cien millones de `int` al azar (0-9). Súmalo en el hilo `main` y mide el tiempo. Súmalo después con *N* hilos: cada uno suma un trozo y guarda su resultado en **su propia posición** de un array `parciales`. Comprueba que el resultado coincide y completa una tabla con 1, 2, 4 hilos y el número de núcleos de tu equipo. ¿Por qué aquí no hace falta `synchronized` aunque todos los hilos escriban en el mismo array `parciales`?
+
+<details class="sol" data-key="java/psp-t2/E9">
+<summary>Solución modelo (bloqueada)</summary>
+<div class="sol-body"><p class="sol-aviso">🔒 La solución completa está bloqueada. Esto es solo un ejemplo de cómo empieza:</p><pre><code>import java.util.concurrent.ThreadLocalRandom;
+public class SumaParalela {
+    static final int TAM = 100_000_000;
+    static long sumarConHilos(int[] datos, int numHilos) throws InterruptedException {
+        long[] parciales = new long[numHilos];               // una posición por hilo: nadie escribe en la de otro
+// ... (resto de la solución bloqueado)</code></pre></div>
+</details>
+
+## Ejercicio 10
+
+**Contador de visitas: cuatro versiones.** Diez hilos registran 100.000 visitas cada uno incrementando un contador común. Hazlo sin protección, con una clase `synchronized`, con `AtomicInteger` y sin compartir nada (cada hilo cuenta en lo suyo y `main` suma al final). Compara qué versiones dan el resultado correcto.
+
+<details class="sol" data-key="java/psp-t2/E10">
+<summary>Solución modelo (bloqueada)</summary>
+<div class="sol-body"><p class="sol-aviso">🔒 La solución completa está bloqueada. Esto es solo un ejemplo de cómo empieza:</p><pre><code>import java.util.concurrent.atomic.AtomicInteger;
+public class Visitas {
+    static final int HILOS = 10;
+    static final int VISITAS = 100_000;
+    static class Contador {
+// ... (resto de la solución bloqueado)</code></pre></div>
+</details>
+
+## Ejercicio 11
+
+**El banco: transferencias sin perder dinero.** Crea 5 cuentas con 1000 € cada una. Diez hilos hacen 10.000 transferencias aleatorias cada uno entre cuentas aleatorias. El total del banco debe seguir siendo siempre 5000 €. Hazlo primero sin protección (falla) y después con **un único cerrojo para todo el banco**. ¿Por qué no basta con que `ingresar` y `retirar` sean `synchronized` cada uno por separado?
+
+<details class="sol" data-key="java/psp-t2/E11">
+<summary>Solución modelo (bloqueada)</summary>
+<div class="sol-body"><p class="sol-aviso">🔒 La solución completa está bloqueada. Esto es solo un ejemplo de cómo empieza:</p><pre><code>import java.util.concurrent.ThreadLocalRandom;
+public class Banco {
+    static class Cuenta {
+        private int saldo;
+        Cuenta(int saldo) { this.saldo = saldo; }
+// ... (resto de la solución bloqueado)</code></pre></div>
+</details>
+
+## Ejercicio 12
+
+**Contar palabras en paralelo.** Genera un fichero de 200.000 líneas con palabras al azar. Cuenta cuántas veces aparece cada palabra con dos versiones: un `HashMap` compartido protegido con `synchronized`, y un `HashMap` por hilo que se fusionan al final. Comprueba que las dos dan el mismo resultado que una versión secuencial. ¿Cuál es más rápida y por qué?
+
+<details class="sol" data-key="java/psp-t2/E12">
+<summary>Solución modelo (bloqueada)</summary>
+<div class="sol-body"><p class="sol-aviso">🔒 La solución completa está bloqueada. Esto es solo un ejemplo de cómo empieza:</p><pre><code>import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.util.ArrayList;
+import java.util.HashMap;
+// ... (resto de la solución bloqueado)</code></pre></div>
+</details>

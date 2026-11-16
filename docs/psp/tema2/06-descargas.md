@@ -58,7 +58,7 @@ public class Descargas {
 [main] terminado juego.zip (2 s)
 [main] empieza apuntes.pdf
 [main] terminado apuntes.pdf (1 s)
-Total: 10,1 s
+Total: 10,0 s
 ```
 
 ## Paso 2 · Un hilo por descarga
@@ -82,14 +82,14 @@ Se crea un hilo por fichero, se guardan en una lista y se espera a todos **despu
 
 ```text
 [D-0] empieza foto.jpg
-[D-3] empieza juego.zip
-[D-2] empieza musica.mp3
 [D-1] empieza video.mp4
+[D-2] empieza musica.mp3
+[D-3] empieza juego.zip
 [D-4] empieza apuntes.pdf
 [D-0] terminado foto.jpg (1 s)
 [D-4] terminado apuntes.pdf (1 s)
-[D-3] terminado juego.zip (2 s)
 [D-2] terminado musica.mp3 (2 s)
+[D-3] terminado juego.zip (2 s)
 [D-1] terminado video.mp4 (4 s)
 Total: 4,0 s
 ```
@@ -116,13 +116,13 @@ Total: 4,0 s
 ```text
 [V-0] empieza foto.jpg
 [V-1] empieza video.mp4
-[V-3] empieza juego.zip
 [V-2] empieza musica.mp3
 [V-4] empieza apuntes.pdf
+[V-3] empieza juego.zip
 [V-4] terminado apuntes.pdf (1 s)
 [V-0] terminado foto.jpg (1 s)
-[V-3] terminado juego.zip (2 s)
 [V-2] terminado musica.mp3 (2 s)
+[V-3] terminado juego.zip (2 s)
 [V-1] terminado video.mp4 (4 s)
 Total: 4,0 s
 ```
@@ -152,10 +152,10 @@ Un **solo límite para todas**: cada `join` espera solo lo que queda hasta el l�
 **Salida:**
 
 ```text
-[V-1] empieza video.mp4
 [V-0] empieza foto.jpg
-[V-2] empieza musica.mp3
 [V-3] empieza juego.zip
+[V-1] empieza video.mp4
+[V-2] empieza musica.mp3
 [V-4] empieza apuntes.pdf
 [V-4] terminado apuntes.pdf (1 s)
 [V-0] terminado foto.jpg (1 s)
@@ -176,9 +176,9 @@ Total: 3,0 s
 
 Las tareas que **esperan** son las que más ganan con hilos. Y **ninguna de estas compartía datos** con las demás.
 
-## Adelanto de la próxima sesión: cuatro hilos suman 1 a la misma variable
+## Cuando sí se comparte un dato, la cosa cambia
 
-Aquí sí se comparte un dato, y sale mal. Cuatro hilos suman 1, cien mil veces cada uno, a la **misma variable**. Debería salir 400.000:
+En todo lo anterior, ningún paso compartía datos entre hilos. En cuanto eso deja de ser verdad, aparece un problema nuevo: la **condición de carrera**, que es el tema del siguiente apartado. Cuatro hilos suman 1, cien mil veces cada uno, a la **misma variable**. Debería salir 400.000:
 
 ```java
 public class Carrera {
@@ -201,7 +201,7 @@ public class Carrera {
 **Salida:**
 
 ```text
-Esperado 400000, obtenido 127833
+Esperado 400000, obtenido 128666
 ```
 
-Y **cada vez sale un número distinto**. ¿Dónde se pierden las sumas que faltan? Es la **condición de carrera**, la próxima sesión. Mientras tanto, en el modo Avanzado tienes [A3.C Compartir datos con seguridad](../../avanzado/a3/t-compartir.md).
+Y **cada vez sale un número distinto**. ¿Dónde se pierden las sumas que faltan? Es lo que explica [2.7 Condición de carrera](07-carrera.md). Mientras tanto, en el modo Avanzado tienes [A3.C Compartir datos con seguridad](../../avanzado/a3/t-compartir.md).

@@ -37,8 +37,8 @@ public class Virtuales {
 **Salida:**
 
 ```text
-VirtualThread[#36,virtual-1]/runnable@ForkJoinPool-1-worker-1
 Thread[#38,plataforma-1,5,main]
+VirtualThread[#36,virtual-1]/runnable@ForkJoinPool-1-worker-1
 ¿v es virtual? true
 ```
 
@@ -71,7 +71,7 @@ public class DiezMil {
 **Salida:**
 
 ```text
-Tiempo: 1049 ms
+Tiempo: 1060 ms
 ```
 
 Diez mil tareas de un segundo, en **algo más de un segundo en total**: todas esperan a la vez. Con hilos de plataforma harían falta decenas de miles de hilos del sistema.

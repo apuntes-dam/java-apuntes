@@ -70,8 +70,8 @@ public class Main {
 **Salida:**
 
 ```text
-Hola desde T2
 Hola desde T1
+Hola desde T2
 Fin del main
 ```
 
@@ -278,8 +278,8 @@ class Saludo                                           // la tarea es un método
 **Salida:**
 
 ```text
-Hola desde T1
 Hola desde T2
+Hola desde T1
 Fin del main
 ```
 
@@ -522,13 +522,13 @@ public class MuchosHilos {
 **Salida:**
 
 ```text
-Hola desde H3
-Hola desde H6
-Hola desde H2
-Hola desde H7
 Hola desde H0
 Hola desde H1
+Hola desde H2
+Hola desde H6
 Hola desde H4
+Hola desde H7
+Hola desde H3
 Hola desde H5
 Todos han terminado
 ```
@@ -569,7 +569,7 @@ public class TrampaJoin {
 
 ```text
 join dentro del primer bucle: 810 ms
-join en un segundo bucle:      201 ms
+join en un segundo bucle:      203 ms
 ```
 
 !!! example "Ejercicio de clase"
