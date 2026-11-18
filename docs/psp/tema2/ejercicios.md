@@ -161,7 +161,7 @@ public class Medir {
 
 ## Boletín de la sesión 2: condición de carrera, `synchronized` y clases atómicas
 
-Del 8 al 12. Son más largos que los de la sesión 1: cada uno compara una versión **sin proteger** (que falla) con una o varias versiones **arregladas**.
+Del 8 al 13. Son más largos que los de la sesión 1: cada uno compara una versión **sin proteger** (que falla) con una o varias versiones **arregladas**.
 
 ## Ejercicio 8
 
@@ -237,5 +237,19 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.HashMap;
+// ... (resto de la solución bloqueado)</code></pre></div>
+</details>
+
+## Ejercicio 13
+
+**Contador bloqueado.** Varios hilos intentan incrementar un contador compartido hasta un máximo, de tres formas distintas: con `synchronized`, con `Lock` y con `tryLock`. Cada hilo debe mostrar por consola qué hilo lo intenta, si el incremento tuvo éxito (en la versión con `tryLock`, también cuándo falla) y el valor actualizado del contador.
+
+<details class="sol" data-key="java/psp-t2/E13">
+<summary>Solución modelo (bloqueada)</summary>
+<div class="sol-body"><p class="sol-aviso">🔒 La solución completa está bloqueada. Esto es solo un ejemplo de cómo empieza:</p><pre><code>import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+import java.util.function.Consumer;
+public class ContadorBloqueado {
+    static final int MAXIMO = 8;
 // ... (resto de la solución bloqueado)</code></pre></div>
 </details>

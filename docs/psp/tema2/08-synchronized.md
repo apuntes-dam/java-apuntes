@@ -1,4 +1,4 @@
-# 2.8 `synchronized`
+# 2.8 `synchronized` y `Lock`
 
 `synchronized` es la herramienta básica de Java para la **exclusión mutua**: que solo **un hilo a la vez** pueda estar dentro de la sección crítica. El hilo que llega y la encuentra ocupada, **espera**.
 
@@ -165,5 +165,105 @@ Compila, parece protegido… y falla igual que sin protección. Cada hilo coge *
     1. **Un único cerrojo**, compartido por todos los hilos que tocan el dato.
     2. **Sección crítica pequeña**: mientras un hilo tiene el cerrojo, los demás están parados. Si dentro metes algo que no necesitaba protección (un `sleep`, una descarga), todos esperan por nada.
 
+## `Lock`: el mismo cerrojo, pero como un objeto
+
+`synchronized` es una palabra clave: el cerrojo se coge y se suelta solo, sin que puedas elegir cuándo. `java.util.concurrent.locks.Lock` (normalmente con la implementación `ReentrantLock`) hace **lo mismo**, exclusión mutua, pero como un **objeto** que tú pides y sueltas explícitamente, con más control:
+
+```java
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+
+public class ContadorLock {
+    static int cuenta = 0;
+    static final Lock cerrojo = new ReentrantLock();
+
+    public static void main(String[] args) throws InterruptedException {
+        Thread[] hilos = new Thread[4];
+        for (int i = 0; i < 4; i++) {
+            hilos[i] = new Thread(() -> {
+                for (int j = 0; j < 100_000; j++) {
+                    cerrojo.lock();
+                    try {
+                        cuenta++;
+                    } finally {
+                        cerrojo.unlock();
+                    }
+                }
+            });
+            hilos[i].start();
+        }
+        for (Thread h : hilos) h.join();
+        System.out.println("Esperado 400000, obtenido " + cuenta);
+    }
+}
+```
+
+**Salida:**
+
+```text
+Esperado 400000, obtenido 400000
+```
+
+Igual que con `synchronized`, sale **siempre** 400.000. La diferencia está en cómo se escribe:
+
+* `cerrojo.lock()` **pide** el cerrojo (si está ocupado, espera); `cerrojo.unlock()` lo **suelta**.
+* A diferencia de `synchronized`, `Lock` **no suelta solo** si salta una excepción: hay que soltarlo a mano en un bloque `finally`. **Olvidarte del `finally` dejaría el cerrojo cogido para siempre** y los demás hilos esperando sin fin: es el precio de tener más control.
+* A cambio, `Lock` ofrece cosas que `synchronized` no tiene, como `tryLock()`.
+
+## `tryLock()`: pedir el cerrojo sin esperar
+
+`lock()` espera indefinidamente si el cerrojo está ocupado. `tryLock()` lo **pide y vuelve al instante**, diga que sí o que no, sin quedarse `BLOCKED`:
+
+```java
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+
+public class PruebaTryLock {
+    static final Lock cerrojo = new ReentrantLock();
+
+    public static void main(String[] args) throws InterruptedException {
+        Thread ocupante = new Thread(() -> {
+            cerrojo.lock();
+            try {
+                System.out.println("Ocupante: tengo el cerrojo, trabajo 300 ms");
+                Thread.sleep(300);
+            } catch (InterruptedException e) {
+            } finally {
+                cerrojo.unlock();
+                System.out.println("Ocupante: he soltado el cerrojo");
+            }
+        });
+        ocupante.start();
+        Thread.sleep(50);                              // deja tiempo a que el ocupante coja el cerrojo primero
+
+        Thread impaciente = new Thread(() -> {
+            boolean conseguido = cerrojo.tryLock();
+            System.out.println("Impaciente: ¿conseguí el cerrojo al primer intento? " + conseguido);
+            if (conseguido) cerrojo.unlock();
+        });
+        impaciente.start();
+        impaciente.join();
+        ocupante.join();
+
+        boolean ahora = cerrojo.tryLock();
+        System.out.println("Después de que el ocupante termine, ¿se consigue? " + ahora);
+        if (ahora) cerrojo.unlock();
+    }
+}
+```
+
+**Salida:**
+
+```text
+Ocupante: tengo el cerrojo, trabajo 300 ms
+Impaciente: ¿conseguí el cerrojo al primer intento? false
+Ocupante: he soltado el cerrojo
+Después de que el ocupante termine, ¿se consigue? true
+```
+
+* `tryLock()` devuelve `true` si **consiguió** el cerrojo (y entonces hay que soltarlo luego, como siempre) o `false` si estaba ocupado — **no espera a que se libere**.
+* Es útil cuando un hilo tiene algo mejor que hacer que esperar: puede intentarlo, y si no lo consigue, seguir con otra tarea y probar más tarde.
+* También existe `tryLock(tiempo, unidad)`: espera como máximo ese tiempo antes de rendirse, a medio camino entre `lock()` (espera siempre) y `tryLock()` (no espera nada).
+
 !!! example "Ejercicio"
-    El [ejercicio 9](ejercicios.md#ejercicio-9) suma un array de cien millones de enteros repartido entre varios hilos, sin que haga falta ningún `synchronized`. ¿Por qué no hace falta, si todos escriben en el mismo array? La clave está en [2.9 Clases atómicas](09-atomicas.md#83-synchronized-o-clase-atomica).
+    El [ejercicio 9](ejercicios.md#ejercicio-9) suma un array de cien millones de enteros repartido entre varios hilos, sin que haga falta ningún `synchronized`. ¿Por qué no hace falta, si todos escriben en el mismo array? La clave está en [2.9 Clases atómicas](09-atomicas.md#83-synchronized-o-clase-atomica). El [ejercicio 13](ejercicios.md#ejercicio-13) compara las tres formas de proteger un contador: `synchronized`, `Lock` y `tryLock`.

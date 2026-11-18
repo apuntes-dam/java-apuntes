@@ -187,7 +187,7 @@ nav:
           - "2.5 Hilos virtuales": psp/tema2/05-virtuales.md
           - "2.6 Práctica: gestor de descargas": psp/tema2/06-descargas.md
           - "2.7 Condición de carrera": psp/tema2/07-carrera.md
-          - "2.8 synchronized": psp/tema2/08-synchronized.md
+          - "2.8 synchronized y Lock": psp/tema2/08-synchronized.md
           - "2.9 Clases atómicas": psp/tema2/09-atomicas.md
           - "Ejercicios del Tema 2": psp/tema2/ejercicios.md
       - "Simulador de examen": psp/simulador.md

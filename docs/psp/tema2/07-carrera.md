@@ -113,4 +113,4 @@ Esperado 40000, obtenido 22443
 A veces, en vez de un número incorrecto, salta directamente una excepción como `ArrayIndexOutOfBoundsException`.
 
 !!! example "Ejercicio"
-    El [ejercicio 8](ejercicios.md#ejercicio-8) te hace encontrar la condición de carrera (o descartarla) en seis fragmentos distintos. La solución está en [2.8 synchronized](08-synchronized.md) y en [2.9 Clases atómicas](09-atomicas.md).
+    El [ejercicio 8](ejercicios.md#ejercicio-8) te hace encontrar la condición de carrera (o descartarla) en seis fragmentos distintos. La solución está en [2.8 synchronized y Lock](08-synchronized.md) y en [2.9 Clases atómicas](09-atomicas.md).

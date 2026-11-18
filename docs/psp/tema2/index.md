@@ -13,7 +13,7 @@ Los **hilos** son la forma de que un programa haga varias cosas a la vez dentro 
 | [2.5 Hilos virtuales](05-virtuales.md) | Hilos ligeros de Java 21: cuándo ganan y cuándo no |
 | [2.6 Práctica guiada: gestor de descargas](06-descargas.md) | Cinco descargas en cuatro versiones: de 10 s a 3 s |
 | [2.7 Condición de carrera](07-carrera.md) | Por qué falla un programa cuando dos hilos escriben en el mismo dato, sin dar ningún error |
-| [2.8 synchronized](08-synchronized.md) | Exclusión mutua: que solo un hilo a la vez entre en la sección crítica |
+| [2.8 synchronized y Lock](08-synchronized.md) | Exclusión mutua con `synchronized` y con `Lock`/`tryLock` |
 | [2.9 Clases atómicas](09-atomicas.md) | `AtomicInteger` y cuándo conviene más que `synchronized` |
 | [Ejercicios](ejercicios.md) | Los de las dos sesiones: 7 de clase/ampliación y el boletín de 5 más, con solución |
 
